@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Festas &amp; Feiras Populares · Portugal</title>
+  <meta name="description" content="Agenda de festas populares, feiras de artesanato, feiras medievais e romarias em Portugal, com fontes municipais e oficiais. Funciona inteiramente no browser." />
+  <link rel="icon" href="data:image/svg+xml,&lt;svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'&gt;&lt;text y='80' font-size='80'&gt;🎉&lt;/text&gt;&lt;/svg&gt;" />
+  <link rel="stylesheet" href="vendor/leaflet/leaflet.css" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <span class="brand-icon">🎉</span>
+      <div>
+        <h1>Festas &amp; Feiras Populares</h1>
+        <p class="subtitle">Festas populares, feiras de artesanato, feiras medievais e romarias · Portugal</p>
+      </div>
+    </div>
+    <div class="topbar-actions">
+      <button id="btn-atualizar" class="btn btn-primary" title="Procurar dados atualizados na web (repositório e Wikipédia)">⟳ Atualizar dados</button>
+      <button id="btn-adicionar" class="btn" title="Adicionar um evento manualmente">＋ Adicionar evento</button>
+      <button id="btn-exportar" class="btn" title="Exportar os dados locais para um ficheiro JSON">⤓ Exportar</button>
+      <label class="btn" for="input-importar" title="Importar eventos de um ficheiro JSON">⤒ Importar
+        <input type="file" id="input-importar" accept=".json,application/json" hidden />
+      </label>
+    </div>
+  </header>
+
+  <nav class="tabs" role="tablist">
+    <button class="tab active" data-view="lista" role="tab">📋 Lista</button>
+    <button class="tab" data-view="mapa" role="tab">🗺️ Mapa</button>
+    <button class="tab" data-view="calendario" role="tab">📅 Calendário</button>
+    <button class="tab" data-view="fontes" role="tab">🔗 Fontes</button>
+  </nav>
+
+  <section class="filtros">
+    <input type="search" id="filtro-texto" placeholder="Pesquisar por nome, município, distrito…" autocomplete="off" />
+    <select id="filtro-categoria">
+      <option value="">Todas as categorias</option>
+    </select>
+    <select id="filtro-distrito">
+      <option value="">Todos os distritos</option>
+    </select>
+    <select id="filtro-mes">
+      <option value="">Todos os meses</option>
+    </select>
+    <label class="check">
+      <input type="checkbox" id="filtro-passados" />
+      Incluir eventos já terminados
+    </label>
+    <span id="contagem" class="contagem"></span>
+  </section>
+
+  <main>
+    <div id="view-lista" class="view active"></div>
+    <div id="view-mapa" class="view">
+      <div id="mapa"></div>
+    </div>
+    <div id="view-calendario" class="view"></div>
+    <div id="view-fontes" class="view"></div>
+  </main>
+
+  <footer class="rodape">
+    <p>
+      Dados compilados de fontes municipais e oficiais (câmaras municipais, organizações dos eventos, Visit Portugal).
+      Os dados são guardados localmente no seu browser. Confirme sempre as datas na fonte oficial de cada evento.
+    </p>
+    <p id="info-dados" class="info-dados"></p>
+  </footer>
+
+  <!-- Modal de detalhe / formulário -->
+  <div id="modal" class="modal hidden" aria-modal="true" role="dialog">
+    <div class="modal-caixa">
+      <button class="modal-fechar" id="modal-fechar" aria-label="Fechar">✕</button>
+      <div id="modal-conteudo"></div>
+    </div>
+  </div>
+
+  <div id="toast" class="toast hidden"></div>
+
+  <script src="vendor/leaflet/leaflet.js"></script>
+  <script src="js/seed-events.js"></script>
+  <script src="js/utils.js"></script>
+  <script src="js/store.js"></script>
+  <script src="js/map-view.js"></script>
+  <script src="js/views.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
