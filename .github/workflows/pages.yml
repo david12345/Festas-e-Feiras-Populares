@@ -4,6 +4,11 @@ on:
   push:
     branches: [claude/municipal-events-app-5szsxz]
   workflow_dispatch:
+  # Republica também quando o workflow de importação termina (o push feito pelo
+  # bot com o GITHUB_TOKEN não dispara, por si só, outros workflows).
+  workflow_run:
+    workflows: ["Importar eventos das fontes"]
+    types: [completed]
 
 permissions:
   contents: read
