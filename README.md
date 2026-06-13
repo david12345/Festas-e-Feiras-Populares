@@ -16,6 +16,12 @@ em Portugal, com a respetiva **fonte municipal/oficial** em cada evento.
   Google Maps e pesquisa rápida de atualizações na web.
 - 🔗 **Fontes** — diretório de todas as fontes municipais e oficiais usadas, e descoberta
   de mais eventos através da API pública da Wikipédia.
+- 🌐 **festasearraiais.pt** — importação manual (botão na vista Fontes) de todos os
+  eventos do agregador [Festas & Arraiais](https://festasearraiais.pt/): o browser
+  descarrega o sitemap e as páginas do site (diretamente ou via proxies CORS públicos),
+  extrai os dados estruturados schema.org (JSON-LD `Event`), geocodifica municípios em
+  falta via Nominatim/OpenStreetMap e guarda tudo localmente, sem duplicar eventos já
+  existentes. Repetir a importação substitui os dados anteriores dessa fonte.
 - 💾 **Armazenamento local** — tudo é guardado no `localStorage` do browser; funciona
   offline depois do primeiro carregamento (Leaflet incluído localmente em `vendor/`).
 - ⟳ **Atualizar dados** — vai buscar à web a versão mais recente do dataset publicado
@@ -67,7 +73,8 @@ index.html            página única da aplicação
 css/styles.css        estilos
 js/seed-events.js     dataset base embebido (funciona via file://)
 js/utils.js           utilitários (datas, categorias, escaping)
-js/store.js           dados: localStorage, fusão seed+utilizador, web/Wikipédia, import/export
+js/store.js           dados: localStorage, fusão seed+importados+utilizador, web/Wikipédia, import/export
+js/festasearraiais.js conector de importação do site festasearraiais.pt
 js/map-view.js        vista de mapa (Leaflet)
 js/views.js           vistas de lista, calendário, fontes, detalhe e formulário
 js/app.js             controlador: filtros, navegação, ações

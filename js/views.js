@@ -135,12 +135,23 @@
       }
     }
     const ordenadas = Array.from(fontes.values()).sort((a, b) => a.nome.localeCompare(b.nome, "pt"));
+    const infoFA = Store.infoImportados(FestasArraiais.ORIGEM);
     let html =
       '<div class="fontes-intro">' +
         "<h2>Fontes municipais e oficiais</h2>" +
         "<p>Sítios oficiais (câmaras municipais e organizações) de onde provém a informação dos eventos guardados nesta aplicação. " +
-        "Use o botão <strong>⟳ Atualizar dados</strong> para procurar dados atualizados na web, e o botão abaixo para descobrir mais eventos na Wikipédia.</p>" +
-        '<button class="btn btn-primary" id="btn-wikipedia">🔎 Descobrir mais eventos (Wikipédia)</button>' +
+        "Use o botão <strong>⟳ Atualizar dados</strong> para procurar dados atualizados na web, e os botões abaixo para importar de fontes externas.</p>" +
+        '<div class="caixa-fonte-externa">' +
+          '<h3>🌐 festasearraiais.pt</h3>' +
+          '<p><a href="' + FestasArraiais.BASE + '/" target="_blank" rel="noopener">Festas &amp; Arraiais</a> agrega ' +
+          "festas e arraiais de todo o país. A importação descarrega os eventos do site diretamente no seu browser e " +
+          "guarda-os localmente; pode repeti-la quando quiser para atualizar." +
+          (infoFA ? " <strong>Última importação: " + U.escapaHtml(infoFA.atualizadoEm) + " (" + infoFA.total + " eventos).</strong>" : "") +
+          "</p>" +
+          '<button class="btn btn-primary" id="btn-importar-fa">⤵️ Importar / atualizar de festasearraiais.pt</button>' +
+          '<span id="fa-progresso" class="fa-progresso"></span>' +
+        "</div>" +
+        '<button class="btn" id="btn-wikipedia">🔎 Descobrir mais eventos (Wikipédia)</button>' +
         '<div id="wiki-resultados"></div>' +
       "</div>" +
       '<ul class="lista-fontes">' +
@@ -152,6 +163,22 @@
         "</li>").join("") +
       "</ul>";
     raiz.innerHTML = html;
+
+    raiz.querySelector("#btn-importar-fa").addEventListener("click", async (e) => {
+      const progresso = raiz.querySelector("#fa-progresso");
+      e.target.disabled = true;
+      try {
+        const r = await FestasArraiais.importar(msg => { progresso.textContent = msg; });
+        Store.guardarImportados(FestasArraiais.ORIGEM, r.eventos);
+        progresso.textContent = "";
+        U.toast(r.eventos.length + " eventos importados de festasearraiais.pt (" + r.paginasLidas + " páginas lidas).");
+        App.renderAtual();
+      } catch (err) {
+        progresso.textContent = "";
+        U.toast("Importação falhou: " + err.message);
+        e.target.disabled = false;
+      }
+    });
 
     raiz.querySelector("#btn-wikipedia").addEventListener("click", async (e) => {
       const alvo = raiz.querySelector("#wiki-resultados");

@@ -16,7 +16,8 @@
       seedCache: null,        // cópia do último seed descarregado da web (ou null → usa o embebido)
       personalizados: [],     // eventos criados pelo utilizador
       alterados: {},          // id -> evento editado (substitui o do seed)
-      removidos: []           // ids de eventos do seed escondidos pelo utilizador
+      removidos: [],          // ids de eventos escondidos pelo utilizador
+      importados: {}          // origem -> { atualizadoEm, eventos: [...] } (ex.: festasearraiais)
     };
   }
 
@@ -59,8 +60,35 @@
       lista.push(estado.alterados[ev.id] ? Object.assign({}, ev, estado.alterados[ev.id]) : ev);
     }
     for (const ev of estado.personalizados) lista.push(ev);
+
+    // Eventos importados de fontes externas (ex.: festasearraiais.pt),
+    // sem duplicar os que já existem com o mesmo nome e município.
+    const chaves = new Set(lista.map(e => U.normaliza(e.nome + "|" + e.municipio)));
+    for (const origem of Object.keys(estado.importados)) {
+      for (const ev of (estado.importados[origem].eventos || [])) {
+        if (removidos.has(ev.id)) continue;
+        const chave = U.normaliza(ev.nome + "|" + ev.municipio);
+        if (chaves.has(chave)) continue;
+        chaves.add(chave);
+        lista.push(estado.alterados[ev.id] ? Object.assign({}, ev, estado.alterados[ev.id]) : ev);
+      }
+    }
+
     lista.sort((a, b) => String(a.inicio || "9999").localeCompare(String(b.inicio || "9999")));
     return lista;
+  }
+
+  function guardarImportados(origem, eventos) {
+    estado.importados[origem] = {
+      atualizadoEm: new Date().toISOString().slice(0, 10),
+      eventos: eventos
+    };
+    gravarEstado(estado);
+  }
+
+  function infoImportados(origem) {
+    const reg = estado.importados[origem];
+    return reg ? { atualizadoEm: reg.atualizadoEm, total: reg.eventos.length } : null;
   }
 
   function porId(id) {
@@ -73,11 +101,13 @@
 
   function guardarEvento(ev) {
     const seedIds = new Set(seedAtual().eventos.map(e => e.id));
+    const idsImportados = new Set(Object.values(estado.importados)
+      .flatMap(reg => (reg.eventos || []).map(e => e.id)));
     if (!ev.id) {
       ev.id = U.slug(ev.nome) + "-" + Date.now().toString(36);
       ev.origem = "manual";
       estado.personalizados.push(ev);
-    } else if (seedIds.has(ev.id)) {
+    } else if (seedIds.has(ev.id) || idsImportados.has(ev.id)) {
       estado.alterados[ev.id] = ev;
     } else {
       const i = estado.personalizados.findIndex(e => e.id === ev.id);
@@ -183,13 +213,16 @@
       atualizadoEm: seed.atualizadoEm,
       origem: estado.seedCache ? "web (atualizado)" : "embebido na aplicação",
       totalSeed: seed.eventos.length,
-      totalPersonalizados: estado.personalizados.length
+      totalPersonalizados: estado.personalizados.length,
+      totalImportados: Object.values(estado.importados)
+        .reduce((n, reg) => n + (reg.eventos || []).length, 0)
     };
   }
 
   window.Store = {
     todos, porId, ePersonalizado,
     guardarEvento, removerEvento, reporOriginais,
+    guardarImportados, infoImportados,
     atualizarDaWeb, descobrirWikipedia,
     exportar, importar, infoDados,
     URL_DADOS_REMOTOS

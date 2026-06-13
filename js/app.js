@@ -92,6 +92,7 @@
     document.getElementById("info-dados").innerHTML =
       "Dados: versão " + info.versao + " (" + U.escapaHtml(info.origem) + "), atualizados a " +
       U.escapaHtml(info.atualizadoEm || "—") + " · " + info.totalSeed + " eventos base + " +
+      info.totalImportados + " importados (festasearraiais.pt) + " +
       info.totalPersonalizados + " adicionados por si · " +
       '<button class="btn-ligacao" id="btn-repor">Repor dados originais</button>';
     document.getElementById("btn-repor").addEventListener("click", () => {

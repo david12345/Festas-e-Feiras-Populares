@@ -232,6 +232,17 @@ main { padding: 0 20px 30px; min-height: 55vh; }
 
 /* Fontes */
 .fontes-intro { max-width: 820px; margin-top: 16px; }
+.caixa-fonte-externa {
+  background: var(--cartao-fundo);
+  border: 1px solid var(--borda);
+  border-left: 5px solid #2a9d8f;
+  border-radius: var(--raio);
+  padding: 12px 16px;
+  margin: 14px 0;
+}
+.caixa-fonte-externa h3 { margin: 0 0 6px; }
+.caixa-fonte-externa a { color: var(--primaria-escura); }
+.fa-progresso { margin-left: 10px; font-size: 0.85rem; color: var(--texto-suave); font-style: italic; }
 .lista-fontes { list-style: none; padding: 0; max-width: 820px; }
 .lista-fontes li {
   background: var(--cartao-fundo);
