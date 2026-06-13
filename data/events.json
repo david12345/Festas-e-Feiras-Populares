@@ -1,6 +1,6 @@
 {
-  "version": 1,
-  "atualizadoEm": "2026-06-12",
+  "version": 2,
+  "atualizadoEm": "2026-06-13",
   "eventos": [
     {
       "id": "santo-antonio-lisboa-2026",
@@ -899,6 +899,151 @@
       "fonte": {
         "nome": "Câmara Municipal de Leiria",
         "url": "https://www.cm-leiria.pt/"
+      },
+      "fontesAdicionais": []
+    },
+    {
+      "id": "serralves-em-festa-2026",
+      "nome": "Serralves em Festa",
+      "categoria": "festival",
+      "municipio": "Porto",
+      "distrito": "Porto",
+      "regiao": "Norte",
+      "local": "Fundação de Serralves e Parque",
+      "lat": 41.1592,
+      "lng": -8.6593,
+      "inicio": "2026-05-29",
+      "fim": "2026-05-31",
+      "estadoData": "confirmada",
+      "descricao": "A 20.ª edição do maior evento cultural gratuito do país: cerca de 50 horas contínuas de música, dança, teatro de rua, circo, cinema, visitas e oficinas, nos jardins e edifícios da Fundação de Serralves, no último fim de semana de maio.",
+      "fonte": {
+        "nome": "Fundação de Serralves",
+        "url": "https://www.serralves.pt/atividades-serralves/serralves-em-festa-2026/"
+      },
+      "fontesAdicionais": [
+        {
+          "nome": "Serralves",
+          "url": "https://www.serralves.pt/"
+        }
+      ]
+    },
+    {
+      "id": "jazz-em-agosto-2026",
+      "nome": "Jazz em Agosto",
+      "categoria": "festival",
+      "municipio": "Lisboa",
+      "distrito": "Lisboa",
+      "regiao": "Área Metropolitana de Lisboa",
+      "local": "Anfiteatro ao Ar Livre — Fundação Calouste Gulbenkian",
+      "lat": 38.737,
+      "lng": -9.1539,
+      "inicio": "2026-07-31",
+      "fim": "2026-08-09",
+      "estadoData": "confirmada",
+      "descricao": "Festival de referência do jazz e da música improvisada, no jardim da Gulbenkian: catorze concertos com nomes de topo da cena internacional, entre 31 de julho e 9 de agosto de 2026.",
+      "fonte": {
+        "nome": "Jazz em Agosto (Fundação Calouste Gulbenkian)",
+        "url": "https://gulbenkian.pt/jazzemagosto/"
+      },
+      "fontesAdicionais": [
+        {
+          "nome": "Fundação Calouste Gulbenkian",
+          "url": "https://gulbenkian.pt/"
+        }
+      ]
+    },
+    {
+      "id": "nos-alive-2026",
+      "nome": "NOS Alive",
+      "categoria": "festival",
+      "municipio": "Oeiras",
+      "distrito": "Lisboa",
+      "regiao": "Área Metropolitana de Lisboa",
+      "local": "Passeio Marítimo de Algés",
+      "lat": 38.6975,
+      "lng": -9.2308,
+      "inicio": "2026-07-09",
+      "fim": "2026-07-11",
+      "estadoData": "confirmada",
+      "descricao": "Um dos maiores festivais de música da Europa, no Passeio Marítimo de Algés. A 18.ª edição decorre a 9, 10 e 11 de julho de 2026, com cartaz internacional (Foo Fighters, Nick Cave & The Bad Seeds, Florence + The Machine, entre outros).",
+      "fonte": {
+        "nome": "NOS Alive (oficial)",
+        "url": "https://nosalive.com/"
+      },
+      "fontesAdicionais": [
+        {
+          "nome": "Câmara Municipal de Oeiras",
+          "url": "https://www.oeiras.pt/-/nos-alive-2026"
+        }
+      ]
+    },
+    {
+      "id": "festival-ao-largo-2026",
+      "nome": "Festival ao Largo",
+      "categoria": "festival",
+      "municipio": "Lisboa",
+      "distrito": "Lisboa",
+      "regiao": "Área Metropolitana de Lisboa",
+      "local": "Largo de São Carlos",
+      "lat": 38.71,
+      "lng": -9.1411,
+      "inicio": "2026-07-01",
+      "fim": "2026-07-19",
+      "estadoData": "estimada",
+      "descricao": "Ciclo de espetáculos gratuitos de música clássica, ópera e dança ao ar livre, no Largo de São Carlos, em frente ao Teatro Nacional de São Carlos, ao longo do mês de julho.",
+      "fonte": {
+        "nome": "Teatro Nacional de São Carlos",
+        "url": "https://tnsc.pt/"
+      },
+      "fontesAdicionais": [
+        {
+          "nome": "OPART",
+          "url": "https://www.opart.pt/"
+        }
+      ]
+    },
+    {
+      "id": "vodafone-paredes-de-coura-2026",
+      "nome": "Vodafone Paredes de Coura",
+      "categoria": "festival",
+      "municipio": "Paredes de Coura",
+      "distrito": "Viana do Castelo",
+      "regiao": "Norte",
+      "local": "Praia Fluvial do Taboão",
+      "lat": 41.911,
+      "lng": -8.561,
+      "inicio": "2026-08-19",
+      "fim": "2026-08-22",
+      "estadoData": "estimada",
+      "descricao": "Festival de música de culto no anfiteatro natural da praia fluvial do Taboão, conhecido pela paisagem e pela curadoria indie/alternativa, em meados de agosto.",
+      "fonte": {
+        "nome": "Vodafone Paredes de Coura (oficial)",
+        "url": "https://paredesdecoura.com/"
+      },
+      "fontesAdicionais": [
+        {
+          "nome": "Câmara Municipal de Paredes de Coura",
+          "url": "https://www.paredesdecoura.pt/"
+        }
+      ]
+    },
+    {
+      "id": "meo-kalorama-2026",
+      "nome": "MEO Kalorama",
+      "categoria": "festival",
+      "municipio": "Lisboa",
+      "distrito": "Lisboa",
+      "regiao": "Área Metropolitana de Lisboa",
+      "local": "Parque da Bela Vista",
+      "lat": 38.743,
+      "lng": -9.124,
+      "inicio": "2026-08-27",
+      "fim": "2026-08-29",
+      "estadoData": "estimada",
+      "descricao": "Festival urbano no Parque da Bela Vista, em Lisboa, com cartaz pop/rock/eletrónica internacional, no final de agosto.",
+      "fonte": {
+        "nome": "MEO Kalorama (oficial)",
+        "url": "https://meokalorama.pt/"
       },
       "fontesAdicionais": []
     }

@@ -10,18 +10,26 @@
 
   function caminhosCandidatos(fonte) {
     const raiz = fonte.url.replace(/\/+$/, "");
-    return [
+    const especificos = (fonte.paths || []).map(p => raiz + (p.startsWith("/") ? p : "/" + p));
+    const habituais = [
       raiz,
       raiz + "/eventos", raiz + "/Eventos", raiz + "/agenda", raiz + "/agenda-cultural",
       raiz + "/eventos/feed", raiz + "/feed"
     ];
+    // Caminhos da fonte primeiro, sem repetir, limitados ao máximo por fonte.
+    const vistos = new Set();
+    return especificos.concat(habituais).filter(u => {
+      if (vistos.has(u)) return false;
+      vistos.add(u);
+      return true;
+    });
   }
 
   function normalizar(bruto, fonte) {
     return {
       id: "fonte-" + fonte.id + "-" + U.slug(bruto.nome + "-" + (bruto.inicio || "")),
       nome: bruto.nome,
-      categoria: WebFontes.categoriaHeuristica(bruto.nome),
+      categoria: WebFontes.categoriaHeuristica(bruto.nome, fonte.categoria),
       municipio: bruto.municipio || fonte.municipio || "",
       distrito: bruto.distrito || fonte.distrito || "",
       regiao: "",

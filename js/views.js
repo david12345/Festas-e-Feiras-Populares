@@ -165,22 +165,26 @@
         '<span id="tudo-progresso" class="fa-progresso"></span>' +
         '<div id="tudo-resumo"></div>' +
       "</div>";
+    const itemFonte = (f) => {
+      const info = Store.infoImportados("fonte:" + f.id);
+      const etiqueta = f.tipo === "cultura" ? "🎭 cultura" : "🏘️ junta";
+      return "<li>" +
+        '<span class="fonte-tipo">' + etiqueta + "</span> " +
+        '<a href="' + U.escapaAttr(f.url) + '" target="_blank" rel="noopener">' + U.escapaHtml(f.nome) + "</a> " +
+        '<span class="fonte-n">(' + U.escapaHtml(f.municipio || "") + ")</span> " +
+        (info ? '<span class="fonte-n">— ' + info.total + " eventos a " + U.escapaHtml(info.atualizadoEm) + "</span> " : "") +
+        '<button class="btn btn-mini fonte-importar" data-fid="' + U.escapaAttr(f.id) + '">⤵️ importar</button>' +
+        (idsUtilizador.has(f.id) ? ' <button class="btn btn-mini btn-perigo fonte-remover" data-fid="' + U.escapaAttr(f.id) + '">remover</button>' : "") +
+        "</li>";
+    };
     const caixaLocais = !temImportador ? "" :
       '<div class="caixa-fonte-externa">' +
-        "<h3>🏘️ Juntas de freguesia e outras fontes locais</h3>" +
-        "<p>Sites oficiais de juntas de freguesia com agendas de festas e arraiais. A importação procura eventos " +
-        "nas páginas de agenda/eventos e nos feeds de notícias de cada site. Acrescente abaixo a junta da sua freguesia.</p>" +
+        "<h3>🏘️🎭 Juntas de freguesia, centros culturais e museus</h3>" +
+        "<p>Sites oficiais de juntas de freguesia, centros culturais, casas das artes, museus e teatros com agendas de " +
+        "festas, festivais e eventos. A importação procura eventos nas páginas de agenda/eventos e nos feeds de notícias " +
+        "de cada site. Acrescente abaixo a junta da sua freguesia ou outra fonte.</p>" +
         '<ul class="lista-fontes-locais">' +
-        fontesLocais.map(f => {
-          const info = Store.infoImportados("fonte:" + f.id);
-          return "<li>" +
-            '<a href="' + U.escapaAttr(f.url) + '" target="_blank" rel="noopener">' + U.escapaHtml(f.nome) + "</a> " +
-            '<span class="fonte-n">(' + U.escapaHtml(f.municipio || "") + ")</span> " +
-            (info ? '<span class="fonte-n">— ' + info.total + " eventos a " + U.escapaHtml(info.atualizadoEm) + "</span> " : "") +
-            '<button class="btn btn-mini fonte-importar" data-fid="' + U.escapaAttr(f.id) + '">⤵️ importar</button>' +
-            (idsUtilizador.has(f.id) ? ' <button class="btn btn-mini btn-perigo fonte-remover" data-fid="' + U.escapaAttr(f.id) + '">remover</button>' : "") +
-            "</li>";
-        }).join("") +
+        fontesLocais.map(itemFonte).join("") +
         "</ul>" +
         '<form id="form-fonte" class="form-fonte">' +
           '<input name="nome" required placeholder="Nome (ex.: Junta de Freguesia de…)">' +

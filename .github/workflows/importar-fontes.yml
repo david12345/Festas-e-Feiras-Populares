@@ -1,0 +1,44 @@
+name: Importar eventos das fontes
+
+# Corre a importação de todas as fontes (juntas de freguesia, centros culturais,
+# museus, festasearraiais.pt) num runner com rede livre e sem CORS, e atualiza
+# data/events.json no repositório. Pode ser disparado manualmente ou por agenda.
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 5 * * 1"   # todas as segundas-feiras às 05:00 UTC
+
+permissions:
+  contents: write
+
+concurrency:
+  group: importar-fontes
+  cancel-in-progress: false
+
+jobs:
+  importar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Configurar Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Importar eventos das fontes
+        run: node scripts/import-fontes.mjs
+
+      - name: Commit das alterações
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/events.json data/geocache.json
+          if git diff --cached --quiet; then
+            echo "Sem alterações nos dados."
+          else
+            git commit -m "Atualizar eventos importados das fontes (automático)"
+            git push
+          fi

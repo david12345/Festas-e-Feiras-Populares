@@ -11,7 +11,8 @@
     "feira-artesanato":  { nome: "Feira de artesanato", cor: "#e76f51", emoji: "🧶" },
     "romaria":           { nome: "Romaria / religiosa", cor: "#7b2cbf", emoji: "⛪" },
     "carnaval":          { nome: "Carnaval",           cor: "#2a9d8f", emoji: "🎭" },
-    "feira-tradicional": { nome: "Feira tradicional",  cor: "#457b9d", emoji: "🐂" }
+    "feira-tradicional": { nome: "Feira tradicional",  cor: "#457b9d", emoji: "🐂" },
+    "festival":          { nome: "Festival / cultura", cor: "#3a0ca3", emoji: "🎶" }
   };
 
   function categoriaInfo(cat) {

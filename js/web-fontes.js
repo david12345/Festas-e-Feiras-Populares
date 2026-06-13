@@ -15,7 +15,8 @@
     let ultimoErro = null;
     for (const proxy of PROXIES) {
       try {
-        const resp = await fetch(proxy(url), { redirect: "follow" });
+        const sinal = (typeof AbortSignal !== "undefined" && AbortSignal.timeout) ? AbortSignal.timeout(20000) : undefined;
+        const resp = await fetch(proxy(url), { redirect: "follow", signal: sinal });
         if (!resp.ok) { ultimoErro = new Error("HTTP " + resp.status); continue; }
         const texto = await resp.text();
         if (texto && texto.length > 50) return texto;
@@ -135,14 +136,15 @@
 
   // ----------------------------------------------------------- Categorias ---
 
-  function categoriaHeuristica(nome) {
+  function categoriaHeuristica(nome, porOmissao) {
     const n = U.normaliza(nome);
     if (/(medieval|quinhentist|renascentist|templari|viking|romano)/.test(n)) return "feira-medieval";
     if (/artesanato|artesa/.test(n)) return "feira-artesanato";
     if (/carnaval|entrudo/.test(n)) return "carnaval";
     if (/(romaria|senhor|senhora|nossa sra|santuario|circio|cirio|procissao|fatima)/.test(n)) return "romaria";
+    if (/(festival|concerto|musica|exposic|teatro|danca|cinema|opera|jazz|recital|orquestra)/.test(n)) return "festival";
     if (/feira|mercado|mostra/.test(n)) return "feira-tradicional";
-    return "festa-popular";
+    return porOmissao || "festa-popular";
   }
 
   // -------------------------------------------------------- Geocodificação ---

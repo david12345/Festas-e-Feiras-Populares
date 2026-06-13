@@ -257,6 +257,7 @@ main { padding: 0 20px 30px; min-height: 55vh; }
 .caixa-reler { border-left-color: #d62828; }
 .lista-fontes-locais { list-style: none; padding: 0; margin: 8px 0; }
 .lista-fontes-locais li { padding: 5px 0; border-bottom: 1px dashed var(--borda); font-size: 0.9rem; }
+.fonte-tipo { display: inline-block; font-size: 0.72rem; color: var(--texto-suave); min-width: 78px; }
 .lista-fontes-locais a { color: var(--primaria-escura); font-weight: 600; text-decoration: none; }
 .lista-fontes-locais a:hover { text-decoration: underline; }
 .form-fonte { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 10px; }
