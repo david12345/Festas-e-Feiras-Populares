@@ -164,6 +164,7 @@ main { padding: 0 20px 30px; min-height: 55vh; }
 .badge-decorre { background: #d62828; color: #fff; animation: pulsar 1.6s infinite; }
 .badge-passado { background: #e9ecef; color: #6b6b6b; }
 .badge-regiao { background: #e7ecf5; color: #2c4a6e; }
+.badge-origem { background: #e0f2f1; color: #1d6a64; }
 @keyframes pulsar { 50% { opacity: 0.65; } }
 
 /* Mapa */
@@ -243,6 +244,16 @@ main { padding: 0 20px 30px; min-height: 55vh; }
 .caixa-fonte-externa h3 { margin: 0 0 6px; }
 .caixa-fonte-externa a { color: var(--primaria-escura); }
 .fa-progresso { margin-left: 10px; font-size: 0.85rem; color: var(--texto-suave); font-style: italic; }
+.fa-relatorio {
+  background: #f2faf9;
+  border: 1px solid #cde8e5;
+  border-radius: 8px;
+  padding: 10px 14px;
+  margin: 10px 0;
+  font-size: 0.88rem;
+}
+.fa-relatorio ul { margin: 6px 0 10px; padding-left: 20px; }
+.fa-relatorio li { margin: 2px 0; }
 .lista-fontes { list-style: none; padding: 0; max-width: 820px; }
 .lista-fontes li {
   background: var(--cartao-fundo);

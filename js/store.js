@@ -91,6 +91,29 @@
     return reg ? { atualizadoEm: reg.atualizadoEm, total: reg.eventos.length } : null;
   }
 
+  // Relatório sobre uma importação: quantos eventos são visíveis, quantos foram
+  // suprimidos por já existirem nos dados base, quantos não têm data e quantos
+  // já terminaram (e por isso ficam ocultos com os filtros por omissão).
+  function estatisticasImportados(origem) {
+    const reg = estado.importados[origem];
+    if (!reg) return null;
+    const removidos = new Set(estado.removidos);
+    const base = seedAtual().eventos.filter(e => !removidos.has(e.id)).concat(estado.personalizados);
+    const chaves = new Set(base.map(e => U.normaliza(e.nome + "|" + e.municipio)));
+    let duplicados = 0, semData = 0, terminados = 0;
+    for (const ev of (reg.eventos || [])) {
+      if (chaves.has(U.normaliza(ev.nome + "|" + ev.municipio))) { duplicados++; continue; }
+      if (!ev.inicio) semData++;
+      else if (U.estadoTemporal(ev) === "passado") terminados++;
+    }
+    return {
+      atualizadoEm: reg.atualizadoEm,
+      total: (reg.eventos || []).length,
+      duplicados, semData, terminados,
+      visiveis: (reg.eventos || []).length - duplicados
+    };
+  }
+
   function porId(id) {
     return todos().find(e => e.id === id) || null;
   }
@@ -222,7 +245,7 @@
   window.Store = {
     todos, porId, ePersonalizado,
     guardarEvento, removerEvento, reporOriginais,
-    guardarImportados, infoImportados,
+    guardarImportados, infoImportados, estatisticasImportados,
     atualizarDaWeb, descobrirWikipedia,
     exportar, importar, infoDados,
     URL_DADOS_REMOTOS

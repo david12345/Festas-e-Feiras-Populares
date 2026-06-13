@@ -23,6 +23,8 @@
         '<div class="cartao-cab">' +
           '<span class="chip" style="background:' + cat.cor + '">' + cat.emoji + " " + U.escapaHtml(cat.nome) + "</span>" +
           badgeTemporal(ev) +
+          (ev.origem === "festasearraiais" ? '<span class="badge badge-origem">festasearraiais.pt</span>' : "") +
+          (ev.origem === "manual" ? '<span class="badge badge-origem">manual</span>' : "") +
         "</div>" +
         "<h3>" + U.escapaHtml(ev.nome) + "</h3>" +
         '<p class="cartao-meta">📍 ' + U.escapaHtml(ev.municipio) + (ev.distrito ? " · " + U.escapaHtml(ev.distrito) : "") + "</p>" +
@@ -136,15 +138,27 @@
     }
     const ordenadas = Array.from(fontes.values()).sort((a, b) => a.nome.localeCompare(b.nome, "pt"));
     const temFA = typeof window.FestasArraiais !== "undefined";
-    const infoFA = temFA ? Store.infoImportados(FestasArraiais.ORIGEM) : null;
+    const statsFA = temFA ? Store.estatisticasImportados(FestasArraiais.ORIGEM) : null;
+    let relatorioFA = "";
+    if (statsFA) {
+      relatorioFA =
+        '<div class="fa-relatorio">' +
+          "<strong>Última importação: " + U.escapaHtml(statsFA.atualizadoEm) + " — " + statsFA.total + " eventos.</strong><ul>" +
+          "<li>" + statsFA.visiveis + " na sua lista (misturados com os restantes, ordenados por data)</li>" +
+          (statsFA.duplicados ? "<li>" + statsFA.duplicados + " suprimidos por já existirem nos dados base (mesmo nome e município)</li>" : "") +
+          (statsFA.terminados ? "<li>" + statsFA.terminados + " já terminados — só aparecem se marcar «Incluir eventos já terminados»</li>" : "") +
+          (statsFA.semData ? "<li>" + statsFA.semData + " sem data — aparecem no grupo «Sem data», no fim da lista</li>" : "") +
+          "</ul>" +
+          '<button class="btn" id="btn-ver-fa">👁️ Ver só os eventos importados</button>' +
+        "</div>";
+    }
     const caixaFA = !temFA ? "" :
       '<div class="caixa-fonte-externa">' +
         '<h3>🌐 festasearraiais.pt</h3>' +
         '<p><a href="' + FestasArraiais.BASE + '/" target="_blank" rel="noopener">Festas &amp; Arraiais</a> agrega ' +
         "festas e arraiais de todo o país. A importação descarrega os eventos do site diretamente no seu browser e " +
-        "guarda-os localmente; pode repeti-la quando quiser para atualizar." +
-        (infoFA ? " <strong>Última importação: " + U.escapaHtml(infoFA.atualizadoEm) + " (" + infoFA.total + " eventos).</strong>" : "") +
-        "</p>" +
+        "guarda-os localmente; pode repeti-la quando quiser para atualizar.</p>" +
+        relatorioFA +
         '<button class="btn btn-primary" id="btn-importar-fa">⤵️ Importar / atualizar de festasearraiais.pt</button>' +
         '<span id="fa-progresso" class="fa-progresso"></span>' +
       "</div>";
@@ -166,6 +180,14 @@
         "</li>").join("") +
       "</ul>";
     raiz.innerHTML = html;
+
+    const btnVerFA = raiz.querySelector("#btn-ver-fa");
+    if (btnVerFA) btnVerFA.addEventListener("click", () => {
+      document.getElementById("filtro-origem").value = FestasArraiais.ORIGEM;
+      document.getElementById("filtro-passados").checked = true;
+      document.getElementById("filtro-texto").value = "";
+      App.mudarVista("lista");
+    });
 
     const btnFA = raiz.querySelector("#btn-importar-fa");
     if (btnFA) btnFA.addEventListener("click", async (e) => {

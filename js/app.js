@@ -12,6 +12,7 @@
       categoria: document.getElementById("filtro-categoria").value,
       distrito: document.getElementById("filtro-distrito").value,
       mes: document.getElementById("filtro-mes").value, // "2026-07" ou ""
+      origem: document.getElementById("filtro-origem").value,
       incluirPassados: document.getElementById("filtro-passados").checked
     };
   }
@@ -22,6 +23,7 @@
       if (!f.incluirPassados && U.estadoTemporal(ev) === "passado") return false;
       if (f.categoria && ev.categoria !== f.categoria) return false;
       if (f.distrito && ev.distrito !== f.distrito) return false;
+      if (f.origem && (ev.origem || "base") !== f.origem) return false;
       if (f.mes) {
         const [ano, mes] = f.mes.split("-").map(Number);
         if (!U.eventoNoMes(ev, ano, mes - 1)) return false;
@@ -117,7 +119,7 @@
     document.querySelectorAll(".tab").forEach(t =>
       t.addEventListener("click", () => mudarVista(t.dataset.view)));
 
-    ["filtro-categoria", "filtro-distrito", "filtro-mes", "filtro-passados"].forEach(id =>
+    ["filtro-categoria", "filtro-distrito", "filtro-mes", "filtro-origem", "filtro-passados"].forEach(id =>
       document.getElementById(id).addEventListener("change", renderAtual));
     document.getElementById("filtro-texto").addEventListener("input", renderAtual);
 
