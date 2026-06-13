@@ -22,6 +22,14 @@ em Portugal, com a respetiva **fonte municipal/oficial** em cada evento.
   extrai os dados estruturados schema.org (JSON-LD `Event`), geocodifica municípios em
   falta via Nominatim/OpenStreetMap e guarda tudo localmente, sem duplicar eventos já
   existentes. Repetir a importação substitui os dados anteriores dessa fonte.
+- 🏘️ **Juntas de freguesia** — registo de fontes locais (`js/fontes-registo.js`) com
+  sites de juntas de freguesia; o importador genérico (`js/fontes-importador.js`) lê as
+  páginas de agenda/eventos e os feeds RSS de cada site (JSON-LD `Event` + títulos de
+  notícias que anunciem festas/arraiais). O utilizador pode adicionar a junta da sua
+  freguesia na vista Fontes.
+- 🔄 **Reler todas as fontes** — botão na vista Fontes que reimporta de uma vez todas as
+  fontes configuradas (festasearraiais.pt + juntas + fontes do utilizador), com relatório
+  por fonte.
 - 💾 **Armazenamento local** — tudo é guardado no `localStorage` do browser; funciona
   offline depois do primeiro carregamento (Leaflet incluído localmente em `vendor/`).
 - ⟳ **Atualizar dados** — vai buscar à web a versão mais recente do dataset publicado
@@ -74,7 +82,10 @@ css/styles.css        estilos
 js/seed-events.js     dataset base embebido (funciona via file://)
 js/utils.js           utilitários (datas, categorias, escaping)
 js/store.js           dados: localStorage, fusão seed+importados+utilizador, web/Wikipédia, import/export
+js/web-fontes.js      utilitários partilhados: proxies CORS, JSON-LD, RSS, geocodificação
 js/festasearraiais.js conector de importação do site festasearraiais.pt
+js/fontes-registo.js  registo de fontes locais (juntas de freguesia)
+js/fontes-importador.js importador genérico de fontes locais + «reler todas as fontes»
 js/map-view.js        vista de mapa (Leaflet)
 js/views.js           vistas de lista, calendário, fontes, detalhe e formulário
 js/app.js             controlador: filtros, navegação, ações

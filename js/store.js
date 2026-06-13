@@ -17,7 +17,8 @@
       personalizados: [],     // eventos criados pelo utilizador
       alterados: {},          // id -> evento editado (substitui o do seed)
       removidos: [],          // ids de eventos escondidos pelo utilizador
-      importados: {}          // origem -> { atualizadoEm, eventos: [...] } (ex.: festasearraiais)
+      importados: {},         // origem -> { atualizadoEm, eventos: [...] } (ex.: festasearraiais)
+      fontesUtilizador: []    // fontes locais adicionadas pelo utilizador (ex.: a sua junta)
     };
   }
 
@@ -157,6 +158,26 @@
     gravarEstado(estado);
   }
 
+  // --- Fontes locais adicionadas pelo utilizador ----------------------------
+
+  function fontesUtilizador() {
+    return estado.fontesUtilizador || [];
+  }
+
+  function adicionarFonteUtilizador(f) {
+    f.id = "u-" + U.slug(f.nome) + "-" + Date.now().toString(36);
+    f.tipo = f.tipo || "junta";
+    (estado.fontesUtilizador = estado.fontesUtilizador || []).push(f);
+    gravarEstado(estado);
+    return f;
+  }
+
+  function removerFonteUtilizador(id) {
+    estado.fontesUtilizador = (estado.fontesUtilizador || []).filter(f => f.id !== id);
+    delete estado.importados["fonte:" + id];
+    gravarEstado(estado);
+  }
+
   // --- Atualização a partir da web -----------------------------------------
 
   async function atualizarDaWeb() {
@@ -246,6 +267,7 @@
     todos, porId, ePersonalizado,
     guardarEvento, removerEvento, reporOriginais,
     guardarImportados, infoImportados, estatisticasImportados,
+    fontesUtilizador, adicionarFonteUtilizador, removerFonteUtilizador,
     atualizarDaWeb, descobrirWikipedia,
     exportar, importar, infoDados,
     URL_DADOS_REMOTOS

@@ -24,6 +24,7 @@
           '<span class="chip" style="background:' + cat.cor + '">' + cat.emoji + " " + U.escapaHtml(cat.nome) + "</span>" +
           badgeTemporal(ev) +
           (ev.origem === "festasearraiais" ? '<span class="badge badge-origem">festasearraiais.pt</span>' : "") +
+          (ev.origem === "fontes" ? '<span class="badge badge-origem">' + U.escapaHtml((ev.fonte && ev.fonte.nome) || "fonte local") + "</span>" : "") +
           (ev.origem === "manual" ? '<span class="badge badge-origem">manual</span>' : "") +
         "</div>" +
         "<h3>" + U.escapaHtml(ev.nome) + "</h3>" +
@@ -152,6 +153,42 @@
           '<button class="btn" id="btn-ver-fa">👁️ Ver só os eventos importados</button>' +
         "</div>";
     }
+    const temImportador = typeof window.FontesImportador !== "undefined";
+    const fontesLocais = (window.FONTES_REGISTO || []).concat(Store.fontesUtilizador());
+    const idsUtilizador = new Set(Store.fontesUtilizador().map(f => f.id));
+    const caixaTudo = !temImportador ? "" :
+      '<div class="caixa-fonte-externa caixa-reler">' +
+        "<h3>🔄 Reler todas as fontes</h3>" +
+        "<p>Importa de novo os eventos de todas as fontes configuradas — festasearraiais.pt e os sites das juntas de freguesia " +
+        "listados abaixo — substituindo os dados anteriores de cada fonte. Pode demorar alguns minutos.</p>" +
+        '<button class="btn btn-primary" id="btn-reler-tudo">🔄 Reler todas as fontes e importar eventos</button>' +
+        '<span id="tudo-progresso" class="fa-progresso"></span>' +
+        '<div id="tudo-resumo"></div>' +
+      "</div>";
+    const caixaLocais = !temImportador ? "" :
+      '<div class="caixa-fonte-externa">' +
+        "<h3>🏘️ Juntas de freguesia e outras fontes locais</h3>" +
+        "<p>Sites oficiais de juntas de freguesia com agendas de festas e arraiais. A importação procura eventos " +
+        "nas páginas de agenda/eventos e nos feeds de notícias de cada site. Acrescente abaixo a junta da sua freguesia.</p>" +
+        '<ul class="lista-fontes-locais">' +
+        fontesLocais.map(f => {
+          const info = Store.infoImportados("fonte:" + f.id);
+          return "<li>" +
+            '<a href="' + U.escapaAttr(f.url) + '" target="_blank" rel="noopener">' + U.escapaHtml(f.nome) + "</a> " +
+            '<span class="fonte-n">(' + U.escapaHtml(f.municipio || "") + ")</span> " +
+            (info ? '<span class="fonte-n">— ' + info.total + " eventos a " + U.escapaHtml(info.atualizadoEm) + "</span> " : "") +
+            '<button class="btn btn-mini fonte-importar" data-fid="' + U.escapaAttr(f.id) + '">⤵️ importar</button>' +
+            (idsUtilizador.has(f.id) ? ' <button class="btn btn-mini btn-perigo fonte-remover" data-fid="' + U.escapaAttr(f.id) + '">remover</button>' : "") +
+            "</li>";
+        }).join("") +
+        "</ul>" +
+        '<form id="form-fonte" class="form-fonte">' +
+          '<input name="nome" required placeholder="Nome (ex.: Junta de Freguesia de…)">' +
+          '<input name="url" type="url" required placeholder="https://…">' +
+          '<input name="municipio" placeholder="Município">' +
+          '<button type="submit" class="btn">＋ Adicionar fonte</button>' +
+        "</form>" +
+      "</div>";
     const caixaFA = !temFA ? "" :
       '<div class="caixa-fonte-externa">' +
         '<h3>🌐 festasearraiais.pt</h3>' +
@@ -167,7 +204,9 @@
         "<h2>Fontes municipais e oficiais</h2>" +
         "<p>Sítios oficiais (câmaras municipais e organizações) de onde provém a informação dos eventos guardados nesta aplicação. " +
         "Use o botão <strong>⟳ Atualizar dados</strong> para procurar dados atualizados na web, e os botões abaixo para importar de fontes externas.</p>" +
+        caixaTudo +
         caixaFA +
+        caixaLocais +
         '<button class="btn" id="btn-wikipedia">🔎 Descobrir mais eventos (Wikipédia)</button>' +
         '<div id="wiki-resultados"></div>' +
       "</div>" +
@@ -180,6 +219,68 @@
         "</li>").join("") +
       "</ul>";
     raiz.innerHTML = html;
+
+    const btnTudo = raiz.querySelector("#btn-reler-tudo");
+    if (btnTudo) btnTudo.addEventListener("click", async (e) => {
+      const progresso = raiz.querySelector("#tudo-progresso");
+      e.target.disabled = true;
+      try {
+        const resumo = await FontesImportador.importarTudo(msg => { progresso.textContent = msg; });
+        const total = resumo.reduce((n, r) => n + (r.n || 0), 0);
+        U.toast(total + " eventos importados de " + resumo.length + " fontes.");
+        App.renderAtual();
+        const alvo = document.querySelector("#tudo-resumo");
+        if (alvo) alvo.innerHTML = "<ul>" + resumo.map(r =>
+          "<li>" + U.escapaHtml(r.nome) + ": " + (r.erro ? "falhou (" + U.escapaHtml(r.erro) + ")" : r.n + " eventos") + "</li>").join("") + "</ul>";
+      } catch (err) {
+        U.toast("Releitura falhou: " + err.message);
+        e.target.disabled = false;
+      }
+    });
+
+    raiz.querySelectorAll(".fonte-importar").forEach(btn => {
+      btn.addEventListener("click", async () => {
+        const fonte = ((window.FONTES_REGISTO || []).concat(Store.fontesUtilizador()))
+          .find(f => f.id === btn.dataset.fid);
+        if (!fonte) return;
+        const progresso = raiz.querySelector("#fa-progresso") || raiz.querySelector("#tudo-progresso");
+        btn.disabled = true;
+        try {
+          const r = await FontesImportador.importarFonte(fonte, msg => { if (progresso) progresso.textContent = msg; });
+          Store.guardarImportados("fonte:" + fonte.id, r.eventos);
+          U.toast(r.eventos.length + " eventos importados de " + fonte.nome +
+            (r.eventos.length ? "." : " — o site pode não publicar eventos em formato legível."));
+          App.renderAtual();
+        } catch (err) {
+          U.toast("Importação de " + fonte.nome + " falhou: " + err.message);
+          btn.disabled = false;
+        } finally {
+          if (progresso) progresso.textContent = "";
+        }
+      });
+    });
+
+    raiz.querySelectorAll(".fonte-remover").forEach(btn => {
+      btn.addEventListener("click", () => {
+        if (confirm("Remover esta fonte e os eventos importados dela?")) {
+          Store.removerFonteUtilizador(btn.dataset.fid);
+          App.renderAtual();
+        }
+      });
+    });
+
+    const formFonte = raiz.querySelector("#form-fonte");
+    if (formFonte) formFonte.addEventListener("submit", (sub) => {
+      sub.preventDefault();
+      const fd = new FormData(sub.target);
+      Store.adicionarFonteUtilizador({
+        nome: fd.get("nome").trim(),
+        url: fd.get("url").trim().replace(/\/+$/, ""),
+        municipio: fd.get("municipio").trim()
+      });
+      App.renderAtual();
+      U.toast("Fonte adicionada. Use «importar» para ler os eventos dela.");
+    });
 
     const btnVerFA = raiz.querySelector("#btn-ver-fa");
     if (btnVerFA) btnVerFA.addEventListener("click", () => {
