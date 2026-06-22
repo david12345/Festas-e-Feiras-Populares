@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "atualizadoEm": "2026-06-15",
+  "atualizadoEm": "2026-06-22",
   "geradoPor": "scripts/import-fontes.mjs",
   "fontesResumo": [
     {
@@ -9,7 +9,7 @@
     },
     {
       "fonte": "Junta de Freguesia do Bonfim",
-      "n": 1
+      "n": 2
     },
     {
       "fonte": "Junta de Freguesia de Paranhos",
@@ -41,7 +41,7 @@
     },
     {
       "fonte": "Centro Cultural de Belém (CCB)",
-      "n": 1
+      "n": 0
     },
     {
       "fonte": "Fundação Calouste Gulbenkian",
@@ -116,32 +116,6 @@
         {
           "nome": "festasearraiais.pt",
           "url": "https://festasearraiais.pt"
-        }
-      ]
-    },
-    {
-      "id": "fonte-ccb-programacao-setembro-a-dezembro-2025-09-01",
-      "nome": "Programação setembro a dezembro",
-      "categoria": "festival",
-      "municipio": "Lisboa",
-      "distrito": "Lisboa",
-      "regiao": "",
-      "local": "Centro Cultural de Belém",
-      "lat": 38.7077507,
-      "lng": -9.1365919,
-      "inicio": "2025-09-01",
-      "fim": "2025-09-15",
-      "estadoData": "confirmada",
-      "descricao": "&lt;p&gt;Os bilhetes para o último quadrimestre de 2025 já estão disponíveis. De setembro a dezembro, a música, o pensamento, a dança e o teatro voltam a encher os nossos palcos. Consulte AQUI toda a programação. &nbsp;&lt;/p&gt;\\n",
-      "origem": "fontes",
-      "fonte": {
-        "nome": "Centro Cultural de Belém (CCB)",
-        "url": "https://www.ccb.pt/evento/programacao-setembro-a-dezembro/"
-      },
-      "fontesAdicionais": [
-        {
-          "nome": "Centro Cultural de Belém (CCB) (página principal)",
-          "url": "https://www.ccb.pt"
         }
       ]
     },
@@ -5061,6 +5035,32 @@
         {
           "nome": "Câmara Municipal de Tomar",
           "url": "https://www.cm-tomar.pt/"
+        }
+      ]
+    },
+    {
+      "id": "fonte-jf-bonfim-s-joao-e-no-bonfim",
+      "nome": "S. João é no Bonfim!",
+      "categoria": "festa-popular",
+      "municipio": "Porto",
+      "distrito": "Porto",
+      "regiao": "",
+      "local": "",
+      "lat": 41.1502195,
+      "lng": -8.6103497,
+      "inicio": null,
+      "fim": null,
+      "estadoData": "estimada",
+      "descricao": "Programas oficiais de S. João, apoiados pela Junta de Freguesia, em diferentes zonas da nossa freguesia. O que importa mesmo é que se divirta. O conteúdo S. João é no Bonfim! aparece primeiro em Junta de Freguesia do Bonfim .",
+      "origem": "fontes",
+      "fonte": {
+        "nome": "Junta de Freguesia do Bonfim",
+        "url": "https://jfbonfim.pt/2026/06/15/sao-joao/"
+      },
+      "fontesAdicionais": [
+        {
+          "nome": "Junta de Freguesia do Bonfim (página principal)",
+          "url": "https://www.jfbonfim.pt"
         }
       ]
     },
