@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "atualizadoEm": "2026-06-22",
+  "atualizadoEm": "2026-06-29",
   "geradoPor": "scripts/import-fontes.mjs",
   "fontesResumo": [
     {
@@ -41,7 +41,7 @@
     },
     {
       "fonte": "Centro Cultural de Belém (CCB)",
-      "n": 0
+      "n": 1
     },
     {
       "fonte": "Fundação Calouste Gulbenkian",
@@ -116,6 +116,32 @@
         {
           "nome": "festasearraiais.pt",
           "url": "https://festasearraiais.pt"
+        }
+      ]
+    },
+    {
+      "id": "fonte-ccb-programacao-setembro-a-dezembro-2025-09-01",
+      "nome": "Programação setembro a dezembro",
+      "categoria": "festival",
+      "municipio": "Lisboa",
+      "distrito": "Lisboa",
+      "regiao": "",
+      "local": "Centro Cultural de Belém",
+      "lat": 38.7077507,
+      "lng": -9.1365919,
+      "inicio": "2025-09-01",
+      "fim": "2025-09-15",
+      "estadoData": "confirmada",
+      "descricao": "&lt;p&gt;Os bilhetes para o último quadrimestre de 2025 já estão disponíveis. De setembro a dezembro, a música, o pensamento, a dança e o teatro voltam a encher os nossos palcos. Consulte AQUI toda a programação. &nbsp;&lt;/p&gt;\\n",
+      "origem": "fontes",
+      "fonte": {
+        "nome": "Centro Cultural de Belém (CCB)",
+        "url": "https://www.ccb.pt/evento/programacao-setembro-a-dezembro/"
+      },
+      "fontesAdicionais": [
+        {
+          "nome": "Centro Cultural de Belém (CCB) (página principal)",
+          "url": "https://www.ccb.pt"
         }
       ]
     },
