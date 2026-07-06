@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "atualizadoEm": "2026-06-29",
+  "atualizadoEm": "2026-07-06",
   "geradoPor": "scripts/import-fontes.mjs",
   "fontesResumo": [
     {
@@ -9,7 +9,7 @@
     },
     {
       "fonte": "Junta de Freguesia do Bonfim",
-      "n": 2
+      "n": 0
     },
     {
       "fonte": "Junta de Freguesia de Paranhos",
@@ -17,7 +17,7 @@
     },
     {
       "fonte": "Junta de Freguesia de Alvalade",
-      "n": 3
+      "n": 0
     },
     {
       "fonte": "Junta de Freguesia de Arroios",
@@ -41,7 +41,7 @@
     },
     {
       "fonte": "Centro Cultural de Belém (CCB)",
-      "n": 1
+      "n": 0
     },
     {
       "fonte": "Fundação Calouste Gulbenkian",
@@ -116,32 +116,6 @@
         {
           "nome": "festasearraiais.pt",
           "url": "https://festasearraiais.pt"
-        }
-      ]
-    },
-    {
-      "id": "fonte-ccb-programacao-setembro-a-dezembro-2025-09-01",
-      "nome": "Programação setembro a dezembro",
-      "categoria": "festival",
-      "municipio": "Lisboa",
-      "distrito": "Lisboa",
-      "regiao": "",
-      "local": "Centro Cultural de Belém",
-      "lat": 38.7077507,
-      "lng": -9.1365919,
-      "inicio": "2025-09-01",
-      "fim": "2025-09-15",
-      "estadoData": "confirmada",
-      "descricao": "&lt;p&gt;Os bilhetes para o último quadrimestre de 2025 já estão disponíveis. De setembro a dezembro, a música, o pensamento, a dança e o teatro voltam a encher os nossos palcos. Consulte AQUI toda a programação. &nbsp;&lt;/p&gt;\\n",
-      "origem": "fontes",
-      "fonte": {
-        "nome": "Centro Cultural de Belém (CCB)",
-        "url": "https://www.ccb.pt/evento/programacao-setembro-a-dezembro/"
-      },
-      "fontesAdicionais": [
-        {
-          "nome": "Centro Cultural de Belém (CCB) (página principal)",
-          "url": "https://www.ccb.pt"
         }
       ]
     },
@@ -5061,136 +5035,6 @@
         {
           "nome": "Câmara Municipal de Tomar",
           "url": "https://www.cm-tomar.pt/"
-        }
-      ]
-    },
-    {
-      "id": "fonte-jf-bonfim-s-joao-e-no-bonfim",
-      "nome": "S. João é no Bonfim!",
-      "categoria": "festa-popular",
-      "municipio": "Porto",
-      "distrito": "Porto",
-      "regiao": "",
-      "local": "",
-      "lat": 41.1502195,
-      "lng": -8.6103497,
-      "inicio": null,
-      "fim": null,
-      "estadoData": "estimada",
-      "descricao": "Programas oficiais de S. João, apoiados pela Junta de Freguesia, em diferentes zonas da nossa freguesia. O que importa mesmo é que se divirta. O conteúdo S. João é no Bonfim! aparece primeiro em Junta de Freguesia do Bonfim .",
-      "origem": "fontes",
-      "fonte": {
-        "nome": "Junta de Freguesia do Bonfim",
-        "url": "https://jfbonfim.pt/2026/06/15/sao-joao/"
-      },
-      "fontesAdicionais": [
-        {
-          "nome": "Junta de Freguesia do Bonfim (página principal)",
-          "url": "https://www.jfbonfim.pt"
-        }
-      ]
-    },
-    {
-      "id": "fonte-jf-bonfim-o-sao-joao-regressa-as-suas-raizes-no-bonfim",
-      "nome": "O São João regressa às suas raízes no Bonfim!",
-      "categoria": "festa-popular",
-      "municipio": "Porto",
-      "distrito": "Porto",
-      "regiao": "",
-      "local": "",
-      "lat": 41.1502195,
-      "lng": -8.6103497,
-      "inicio": null,
-      "fim": null,
-      "estadoData": "estimada",
-      "descricao": "Pela primeira vez, a Junta de Freguesia do Bonfim, em parceria com os Salesianos do Porto, promove a Procissão de São João Batista, a figura maior das Festas de São João da cidade do Porto. No próximo domingo, dia 14 de junho, às 18h30, convidamos toda a comunidade a juntar-se a este momento único de [&#8230;] O conteúdo O São João regressa às suas raízes no Bonfim! aparece primeiro em Junta de Fr",
-      "origem": "fontes",
-      "fonte": {
-        "nome": "Junta de Freguesia do Bonfim",
-        "url": "https://jfbonfim.pt/2026/06/10/sao-joao-regressa-as-suas-raizes-no-bonfim/"
-      },
-      "fontesAdicionais": [
-        {
-          "nome": "Junta de Freguesia do Bonfim (página principal)",
-          "url": "https://www.jfbonfim.pt"
-        }
-      ]
-    },
-    {
-      "id": "fonte-jf-alvalade-feira-de-alvalade-inscricoes-abrem-a-1-de-junho",
-      "nome": "Feira de Alvalade: inscrições abrem a 1 de junho",
-      "categoria": "feira-tradicional",
-      "municipio": "Lisboa",
-      "distrito": "Lisboa",
-      "regiao": "",
-      "local": "",
-      "lat": 38.7077507,
-      "lng": -9.1365919,
-      "inicio": null,
-      "fim": null,
-      "estadoData": "estimada",
-      "descricao": "A Junta de Freguesia de Alvalade promove a Feira de Alvalade, uma iniciativa dedicada à economia circular, à reutilização, ao artesanato e à dinamização do Mercado de Alvalade. A feira [&#8230;] The post Feira de Alvalade: inscrições abrem a 1 de junho first appeared on Junta de Freguesia de Alvalade .",
-      "origem": "fontes",
-      "fonte": {
-        "nome": "Junta de Freguesia de Alvalade",
-        "url": "https://jf-alvalade.pt/feira-de-alvalade-inscricoes-abrem-a-1-de-junho/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=feira-de-alvalade-inscricoes-abrem-a-1-de-junho"
-      },
-      "fontesAdicionais": [
-        {
-          "nome": "Junta de Freguesia de Alvalade (página principal)",
-          "url": "https://jf-alvalade.pt"
-        }
-      ]
-    },
-    {
-      "id": "fonte-jf-alvalade-arraial-de-alvalade-celebra-os-santos-populares-nos-dias-9-10-12-e-13-de-junho",
-      "nome": "Arraial de Alvalade celebra os Santos Populares nos dias 9, 10, 12 e 13 de junho",
-      "categoria": "festa-popular",
-      "municipio": "Lisboa",
-      "distrito": "Lisboa",
-      "regiao": "",
-      "local": "",
-      "lat": 38.7077507,
-      "lng": -9.1365919,
-      "inicio": null,
-      "fim": null,
-      "estadoData": "estimada",
-      "descricao": "Alvalade prepara-se para celebrar os Santos Populares com mais uma edição do Arraial de Alvalade, que decorre nos dias 9, 10, 12 e 13 de junho de 2026, no Complexo [&#8230;] The post Arraial de Alvalade celebra os Santos Populares nos dias 9, 10, 12 e 13 de junho first appeared on Junta de Freguesia de Alvalade .",
-      "origem": "fontes",
-      "fonte": {
-        "nome": "Junta de Freguesia de Alvalade",
-        "url": "https://jf-alvalade.pt/arraial-de-alvalade-2026/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=arraial-de-alvalade-2026"
-      },
-      "fontesAdicionais": [
-        {
-          "nome": "Junta de Freguesia de Alvalade (página principal)",
-          "url": "https://jf-alvalade.pt"
-        }
-      ]
-    },
-    {
-      "id": "fonte-jf-alvalade-abertura-das-pre-inscricoes-12-edicao-do-mercado-de-natal-em-alvalade",
-      "nome": "Abertura das Pré-Inscrições 12ª Edição do Mercado de Natal em Alvalade",
-      "categoria": "feira-tradicional",
-      "municipio": "Lisboa",
-      "distrito": "Lisboa",
-      "regiao": "",
-      "local": "",
-      "lat": 38.7077507,
-      "lng": -9.1365919,
-      "inicio": null,
-      "fim": null,
-      "estadoData": "estimada",
-      "descricao": "A Junta de Freguesia de Alvalade promove a 12ª edição do Mercado de Natal em Alvalade, entre os dias 10 a 20 de dezembro de 2026, uma iniciativa que é [&#8230;] The post Abertura das Pré-Inscrições 12ª Edição do Mercado de Natal em Alvalade first appeared on Junta de Freguesia de Alvalade .",
-      "origem": "fontes",
-      "fonte": {
-        "nome": "Junta de Freguesia de Alvalade",
-        "url": "https://jf-alvalade.pt/abertura-das-pre-inscricoes-12a-edicao-do-mercado-de-natal-em-alvalade/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=abertura-das-pre-inscricoes-12a-edicao-do-mercado-de-natal-em-alvalade"
-      },
-      "fontesAdicionais": [
-        {
-          "nome": "Junta de Freguesia de Alvalade (página principal)",
-          "url": "https://jf-alvalade.pt"
         }
       ]
     },
