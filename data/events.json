@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "atualizadoEm": "2026-07-20",
+  "atualizadoEm": "2026-07-27",
   "geradoPor": "scripts/import-fontes.mjs",
   "fontesResumo": [
     {
@@ -9,7 +9,7 @@
     },
     {
       "fonte": "Junta de Freguesia do Bonfim",
-      "n": 0
+      "n": 1
     },
     {
       "fonte": "Junta de Freguesia de Paranhos",
@@ -17,7 +17,7 @@
     },
     {
       "fonte": "Junta de Freguesia de Alvalade",
-      "n": 4
+      "n": 3
     },
     {
       "fonte": "Junta de Freguesia de Arroios",
@@ -5065,6 +5065,32 @@
       ]
     },
     {
+      "id": "fonte-jf-bonfim-camara-vota-submeter-a-consulta-publica-operacao-para-reabilitar-o-bonfim",
+      "nome": "Câmara vota submeter a consulta pública operação para reabilitar o Bonfim",
+      "categoria": "festival",
+      "municipio": "Porto",
+      "distrito": "Porto",
+      "regiao": "",
+      "local": "",
+      "lat": 41.1502195,
+      "lng": -8.6103497,
+      "inicio": null,
+      "fim": null,
+      "estadoData": "estimada",
+      "descricao": "A Câmara do Porto vai votar submeter a consulta pública o projeto da Operação de Reabilitação Urbana (ORU) do Bonfim, que prevê um investimento de 683 milhões de euros. De acordo com o Relatório do Programa Estratégico de Reabilitação Urbana (PERU), anexado à proposta a que a Lusa teve hoje acesso, esta operação urbana terá [&#8230;] O conteúdo Câmara vota submeter a consulta pública operação para",
+      "origem": "fontes",
+      "fonte": {
+        "nome": "Junta de Freguesia do Bonfim",
+        "url": "https://jfbonfim.pt/2026/07/06/operacao-de-reabilitacao-urbana-oru-do-bonfim/"
+      },
+      "fontesAdicionais": [
+        {
+          "nome": "Junta de Freguesia do Bonfim (página principal)",
+          "url": "https://www.jfbonfim.pt"
+        }
+      ]
+    },
+    {
       "id": "fonte-jf-alvalade-alvalade-inova-junta-comerciantes-empreendedores-e-comunidade-no-mercado-de-alvalade",
       "nome": "Alvalade Inova junta comerciantes, empreendedores e comunidade no Mercado de Alvalade",
       "categoria": "feira-tradicional",
@@ -5134,32 +5160,6 @@
       "fonte": {
         "nome": "Junta de Freguesia de Alvalade",
         "url": "https://jf-alvalade.pt/arraial-de-alvalade-2026/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=arraial-de-alvalade-2026"
-      },
-      "fontesAdicionais": [
-        {
-          "nome": "Junta de Freguesia de Alvalade (página principal)",
-          "url": "https://jf-alvalade.pt"
-        }
-      ]
-    },
-    {
-      "id": "fonte-jf-alvalade-abertura-das-pre-inscricoes-12-edicao-do-mercado-de-natal-em-alvalade",
-      "nome": "Abertura das Pré-Inscrições 12ª Edição do Mercado de Natal em Alvalade",
-      "categoria": "feira-tradicional",
-      "municipio": "Lisboa",
-      "distrito": "Lisboa",
-      "regiao": "",
-      "local": "",
-      "lat": 38.7077507,
-      "lng": -9.1365919,
-      "inicio": null,
-      "fim": null,
-      "estadoData": "estimada",
-      "descricao": "A Junta de Freguesia de Alvalade promove a 12ª edição do Mercado de Natal em Alvalade, entre os dias 10 a 20 de dezembro de 2026, uma iniciativa que é [&#8230;] The post Abertura das Pré-Inscrições 12ª Edição do Mercado de Natal em Alvalade first appeared on Junta de Freguesia de Alvalade .",
-      "origem": "fontes",
-      "fonte": {
-        "nome": "Junta de Freguesia de Alvalade",
-        "url": "https://jf-alvalade.pt/abertura-das-pre-inscricoes-12a-edicao-do-mercado-de-natal-em-alvalade/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=abertura-das-pre-inscricoes-12a-edicao-do-mercado-de-natal-em-alvalade"
       },
       "fontesAdicionais": [
         {
