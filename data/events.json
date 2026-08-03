@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "atualizadoEm": "2026-07-27",
+  "atualizadoEm": "2026-08-03",
   "geradoPor": "scripts/import-fontes.mjs",
   "fontesResumo": [
     {
@@ -9,7 +9,7 @@
     },
     {
       "fonte": "Junta de Freguesia do Bonfim",
-      "n": 1
+      "n": 0
     },
     {
       "fonte": "Junta de Freguesia de Paranhos",
@@ -17,7 +17,7 @@
     },
     {
       "fonte": "Junta de Freguesia de Alvalade",
-      "n": 3
+      "n": 0
     },
     {
       "fonte": "Junta de Freguesia de Arroios",
@@ -69,7 +69,7 @@
     },
     {
       "fonte": "Coliseu dos Recreios",
-      "n": 1
+      "n": 0
     },
     {
       "fonte": "Centro Cultural Vila Flor",
@@ -717,32 +717,6 @@
       ]
     },
     {
-      "id": "festasearraiais-festa-de-santo-amaro-2026-maceira-leiria-2026-01-11",
-      "nome": "Festa de Santo Amaro 2026 - Maceira",
-      "categoria": "festa-popular",
-      "municipio": "Leiria",
-      "distrito": "Leiria",
-      "regiao": "",
-      "local": "Maceira, Maceira",
-      "lat": 39.684984,
-      "lng": -8.885037,
-      "inicio": "2026-01-11",
-      "fim": "2026-01-18",
-      "estadoData": "confirmada",
-      "descricao": "Festa de Santo Amaro com eventos religiosos, música ao vivo, e atividades culturais.",
-      "origem": "festasearraiais",
-      "fonte": {
-        "nome": "Festas & Arraiais",
-        "url": "https://festasearraiais.pt/eventos/festa-de-santo-amaro-2026-maceira-8726"
-      },
-      "fontesAdicionais": [
-        {
-          "nome": "festasearraiais.pt",
-          "url": "https://festasearraiais.pt"
-        }
-      ]
-    },
-    {
       "id": "festasearraiais-festas-em-honra-de-santo-amaro-2026-figueira-da-foz-figueira-da-foz-2026-01-11",
       "nome": "Festas em Honra de Santo Amaro 2026 - Figueira da Foz",
       "categoria": "festa-popular",
@@ -821,6 +795,32 @@
       ]
     },
     {
+      "id": "festasearraiais-festa-de-santo-amaro-2026-maceira-leiria-2026-01-11",
+      "nome": "Festa de Santo Amaro 2026 - Maceira",
+      "categoria": "festa-popular",
+      "municipio": "Leiria",
+      "distrito": "Leiria",
+      "regiao": "",
+      "local": "Maceira, Maceira",
+      "lat": 39.684984,
+      "lng": -8.885037,
+      "inicio": "2026-01-11",
+      "fim": "2026-01-18",
+      "estadoData": "confirmada",
+      "descricao": "Festa de Santo Amaro com eventos religiosos, música ao vivo, e atividades culturais.",
+      "origem": "festasearraiais",
+      "fonte": {
+        "nome": "Festas & Arraiais",
+        "url": "https://festasearraiais.pt/eventos/festa-de-santo-amaro-2026-maceira-8726"
+      },
+      "fontesAdicionais": [
+        {
+          "nome": "festasearraiais.pt",
+          "url": "https://festasearraiais.pt"
+        }
+      ]
+    },
+    {
       "id": "festasearraiais-festival-na-minha-casa-2026-lisboa-lisboa-2026-01-12",
       "nome": "Festival na Minha Casa 2026 - Lisboa",
       "categoria": "festival",
@@ -838,32 +838,6 @@
       "fonte": {
         "nome": "Festas & Arraiais",
         "url": "https://festasearraiais.pt/eventos/festival-na-minha-casa-2026-lisboa-8651"
-      },
-      "fontesAdicionais": [
-        {
-          "nome": "festasearraiais.pt",
-          "url": "https://festasearraiais.pt"
-        }
-      ]
-    },
-    {
-      "id": "festasearraiais-festa-em-honra-de-santo-amaro-2026-malhapao-rico-oliveira-do-bairro-2026-01-14",
-      "nome": "Festa em honra de Santo Amaro 2026 - Malhapão Rico",
-      "categoria": "festa-popular",
-      "municipio": "Oliveira do Bairro",
-      "distrito": "Aveiro",
-      "regiao": "",
-      "local": "Malhapão Rico, Oiã",
-      "lat": 40.514878,
-      "lng": -8.556654,
-      "inicio": "2026-01-14",
-      "fim": "2026-01-18",
-      "estadoData": "confirmada",
-      "descricao": "Festa em honra de Santo Amaro com arruada, missa solene, procissão, e atuações de grupos musicais.",
-      "origem": "festasearraiais",
-      "fonte": {
-        "nome": "Festas & Arraiais",
-        "url": "https://festasearraiais.pt/eventos/festa-em-honra-de-santo-amaro-2026-malhapao-rico-8718"
       },
       "fontesAdicionais": [
         {
@@ -1003,75 +977,23 @@
       ]
     },
     {
-      "id": "festasearraiais-festa-em-honra-de-santo-amaro-2026-prozelo-amares-2026-01-15",
-      "nome": "Festa em honra de Santo Amaro 2026 - Prozelo",
+      "id": "festasearraiais-festa-em-honra-de-santo-amaro-2026-malhapao-rico-oliveira-do-bairro-2026-01-14",
+      "nome": "Festa em honra de Santo Amaro 2026 - Malhapão Rico",
       "categoria": "festa-popular",
-      "municipio": "Amares",
-      "distrito": "Braga",
+      "municipio": "Oliveira do Bairro",
+      "distrito": "Aveiro",
       "regiao": "",
-      "local": "Prozelo, União das freguesias de Ferreiros, Prozelo e Besteiros",
-      "lat": 41.866086,
-      "lng": -8.438506,
-      "inicio": "2026-01-15",
-      "fim": "2026-01-25",
-      "estadoData": "confirmada",
-      "descricao": "Festa em honra de Santo Amaro com missas, procissão, concertos e fogo de artifício.",
-      "origem": "festasearraiais",
-      "fonte": {
-        "nome": "Festas & Arraiais",
-        "url": "https://festasearraiais.pt/eventos/festa-em-honra-de-santo-amaro-2026-prozelo-8705"
-      },
-      "fontesAdicionais": [
-        {
-          "nome": "festasearraiais.pt",
-          "url": "https://festasearraiais.pt"
-        }
-      ]
-    },
-    {
-      "id": "festasearraiais-festa-em-honra-de-santo-amaro-2026-airaes-felgueiras-2026-01-15",
-      "nome": "Festa em honra de Santo Amaro 2026 - Airães",
-      "categoria": "festa-popular",
-      "municipio": "Felgueiras",
-      "distrito": "Porto",
-      "regiao": "",
-      "local": "Airães, Airães",
-      "lat": 41.314813,
-      "lng": -8.19604,
-      "inicio": "2026-01-15",
+      "local": "Malhapão Rico, Oiã",
+      "lat": 40.514878,
+      "lng": -8.556654,
+      "inicio": "2026-01-14",
       "fim": "2026-01-18",
       "estadoData": "confirmada",
-      "descricao": "Festa religiosa e popular com procissões, atuações musicais e fogo de artifício.",
+      "descricao": "Festa em honra de Santo Amaro com arruada, missa solene, procissão, e atuações de grupos musicais.",
       "origem": "festasearraiais",
       "fonte": {
         "nome": "Festas & Arraiais",
-        "url": "https://festasearraiais.pt/eventos/festa-em-honra-de-santo-amaro-2026-airaes-8750"
-      },
-      "fontesAdicionais": [
-        {
-          "nome": "festasearraiais.pt",
-          "url": "https://festasearraiais.pt"
-        }
-      ]
-    },
-    {
-      "id": "festasearraiais-festa-em-honra-de-santo-amaro-2026-cunhedo-penacova-2026-01-15",
-      "nome": "Festa em honra de Santo Amaro 2026 - Cunhedo",
-      "categoria": "festa-popular",
-      "municipio": "Penacova",
-      "distrito": "Coimbra",
-      "regiao": "",
-      "local": "Cunhedo, Penacova",
-      "lat": 40.321705,
-      "lng": -8.232306,
-      "inicio": "2026-01-15",
-      "fim": "2026-01-18",
-      "estadoData": "confirmada",
-      "descricao": "Festa em honra de Santo Amaro com missas, procissões, atuações musicais e visitas às adegas.",
-      "origem": "festasearraiais",
-      "fonte": {
-        "nome": "Festas & Arraiais",
-        "url": "https://festasearraiais.pt/eventos/festa-em-honra-de-santo-amaro-2026-cunhedo-8773"
+        "url": "https://festasearraiais.pt/eventos/festa-em-honra-de-santo-amaro-2026-malhapao-rico-8718"
       },
       "fontesAdicionais": [
         {
@@ -1367,49 +1289,23 @@
       ]
     },
     {
-      "id": "festasearraiais-festa-em-honra-de-s-sebastiao-2026-resouro-ourem-2026-01-16",
-      "nome": "Festa em honra de S. Sebastião 2026 - Resouro",
+      "id": "festasearraiais-festa-em-honra-de-santo-amaro-2026-prozelo-amares-2026-01-15",
+      "nome": "Festa em honra de Santo Amaro 2026 - Prozelo",
       "categoria": "festa-popular",
-      "municipio": "Ourém",
-      "distrito": "Santarém",
+      "municipio": "Amares",
+      "distrito": "Braga",
       "regiao": "",
-      "local": "Resouro, Urqueira",
-      "lat": 39.754582,
-      "lng": -8.590462,
-      "inicio": "2026-01-16",
-      "fim": "2026-01-19",
-      "estadoData": "confirmada",
-      "descricao": "Festa em honra de S. Sebastião com missas, procissões, atuações musicais e gastronomia.",
-      "origem": "festasearraiais",
-      "fonte": {
-        "nome": "Festas & Arraiais",
-        "url": "https://festasearraiais.pt/eventos/festa-em-honra-de-s-sebastiao-2026-resouro-8710"
-      },
-      "fontesAdicionais": [
-        {
-          "nome": "festasearraiais.pt",
-          "url": "https://festasearraiais.pt"
-        }
-      ]
-    },
-    {
-      "id": "festasearraiais-festa-em-honra-de-s-sebastiao-2026-soza-vagos-2026-01-16",
-      "nome": "Festa em honra de S. Sebastião 2026 - Soza",
-      "categoria": "festa-popular",
-      "municipio": "Vagos",
-      "distrito": "Aveiro",
-      "regiao": "",
-      "local": "Soza, Sosa",
-      "lat": 40.544219,
-      "lng": -8.658314,
-      "inicio": "2026-01-16",
+      "local": "Prozelo, União das freguesias de Ferreiros, Prozelo e Besteiros",
+      "lat": 41.866086,
+      "lng": -8.438506,
+      "inicio": "2026-01-15",
       "fim": "2026-01-25",
       "estadoData": "confirmada",
-      "descricao": "Festas em honra de S. Sebastião com novenas, arruada, distribuição de papas, baile e missa seguida de procissão.",
+      "descricao": "Festa em honra de Santo Amaro com missas, procissão, concertos e fogo de artifício.",
       "origem": "festasearraiais",
       "fonte": {
         "nome": "Festas & Arraiais",
-        "url": "https://festasearraiais.pt/eventos/festa-em-honra-de-s-sebastiao-2026-soza-8711"
+        "url": "https://festasearraiais.pt/eventos/festa-em-honra-de-santo-amaro-2026-prozelo-8705"
       },
       "fontesAdicionais": [
         {
@@ -1419,23 +1315,23 @@
       ]
     },
     {
-      "id": "festasearraiais-festa-em-honra-de-santo-amaro-2026-pombal-pombal-2026-01-16",
-      "nome": "Festa em honra de Santo Amaro 2026 - Pombal",
+      "id": "festasearraiais-festa-em-honra-de-santo-amaro-2026-airaes-felgueiras-2026-01-15",
+      "nome": "Festa em honra de Santo Amaro 2026 - Airães",
       "categoria": "festa-popular",
-      "municipio": "Pombal",
-      "distrito": "Leiria",
+      "municipio": "Felgueiras",
+      "distrito": "Porto",
       "regiao": "",
-      "local": "Pombal, Pombal",
-      "lat": 39.917814,
-      "lng": -8.627895,
-      "inicio": "2026-01-16",
+      "local": "Airães, Airães",
+      "lat": 41.314813,
+      "lng": -8.19604,
+      "inicio": "2026-01-15",
       "fim": "2026-01-18",
       "estadoData": "confirmada",
-      "descricao": "Festa em honra de Santo Amaro com diversas atividades, incluindo caminhada solidária, animação pela cidade, missa e atuações musicais.",
+      "descricao": "Festa religiosa e popular com procissões, atuações musicais e fogo de artifício.",
       "origem": "festasearraiais",
       "fonte": {
         "nome": "Festas & Arraiais",
-        "url": "https://festasearraiais.pt/eventos/festa-em-honra-de-santo-amaro-2026-pombal-8719"
+        "url": "https://festasearraiais.pt/eventos/festa-em-honra-de-santo-amaro-2026-airaes-8750"
       },
       "fontesAdicionais": [
         {
@@ -1445,49 +1341,23 @@
       ]
     },
     {
-      "id": "festasearraiais-festas-de-santo-antao-2026-romariz-vinhais-2026-01-16",
-      "nome": "Festas de Santo Antão 2026 - Romariz",
+      "id": "festasearraiais-festa-em-honra-de-santo-amaro-2026-cunhedo-penacova-2026-01-15",
+      "nome": "Festa em honra de Santo Amaro 2026 - Cunhedo",
       "categoria": "festa-popular",
-      "municipio": "Vinhais",
-      "distrito": "Bragança",
+      "municipio": "Penacova",
+      "distrito": "Coimbra",
       "regiao": "",
-      "local": "Romariz, União das freguesias de Nunes e Ousilhão",
-      "lat": 40.942127,
-      "lng": -8.454748,
-      "inicio": "2026-01-16",
-      "fim": "2026-01-17",
-      "estadoData": "confirmada",
-      "descricao": "Festas de Santo Antão com torneio de sueca, missa solene, procissão e arraial.",
-      "origem": "festasearraiais",
-      "fonte": {
-        "nome": "Festas & Arraiais",
-        "url": "https://festasearraiais.pt/eventos/festas-de-santo-antao-2026-romariz-8755"
-      },
-      "fontesAdicionais": [
-        {
-          "nome": "festasearraiais.pt",
-          "url": "https://festasearraiais.pt"
-        }
-      ]
-    },
-    {
-      "id": "festasearraiais-festas-em-honra-de-s-sebastiao-2026-safara-moura-2026-01-16",
-      "nome": "Festas em honra de S. Sebastião 2026 - Safara",
-      "categoria": "festa-popular",
-      "municipio": "Moura",
-      "distrito": "Beja",
-      "regiao": "",
-      "local": "Safara, União das freguesias de Safara e Santo Aleixo da Restauração",
-      "lat": 38.10772,
-      "lng": -7.217753,
-      "inicio": "2026-01-16",
+      "local": "Cunhedo, Penacova",
+      "lat": 40.321705,
+      "lng": -8.232306,
+      "inicio": "2026-01-15",
       "fim": "2026-01-18",
       "estadoData": "confirmada",
-      "descricao": "Festas em honra de S. Sebastião com diversas atividades culturais e religiosas, incluindo atuações musicais e procissões.",
+      "descricao": "Festa em honra de Santo Amaro com missas, procissões, atuações musicais e visitas às adegas.",
       "origem": "festasearraiais",
       "fonte": {
         "nome": "Festas & Arraiais",
-        "url": "https://festasearraiais.pt/eventos/festas-em-honra-de-s-sebastiao-2026-safara-8756"
+        "url": "https://festasearraiais.pt/eventos/festa-em-honra-de-santo-amaro-2026-cunhedo-8773"
       },
       "fontesAdicionais": [
         {
@@ -1965,23 +1835,23 @@
       ]
     },
     {
-      "id": "festasearraiais-festa-em-honra-de-sao-sebastiao-2026-ervedosa-pinhel-2026-01-17",
-      "nome": "Festa em honra de São Sebastião 2026 - Ervedosa",
+      "id": "festasearraiais-festa-em-honra-de-s-sebastiao-2026-resouro-ourem-2026-01-16",
+      "nome": "Festa em honra de S. Sebastião 2026 - Resouro",
       "categoria": "festa-popular",
-      "municipio": "Pinhel",
-      "distrito": "Guarda",
+      "municipio": "Ourém",
+      "distrito": "Santarém",
       "regiao": "",
-      "local": "Ervedosa, Ervedosa",
-      "lat": 40.845789,
-      "lng": -7.180145,
-      "inicio": "2026-01-17",
-      "fim": "2026-01-18",
+      "local": "Resouro, Urqueira",
+      "lat": 39.754582,
+      "lng": -8.590462,
+      "inicio": "2026-01-16",
+      "fim": "2026-01-19",
       "estadoData": "confirmada",
-      "descricao": "Baile com o grupo SIGMA. Missa solene seguida de procissão. Arrematação com atuação do grupo Flechas da Concertina.",
+      "descricao": "Festa em honra de S. Sebastião com missas, procissões, atuações musicais e gastronomia.",
       "origem": "festasearraiais",
       "fonte": {
         "nome": "Festas & Arraiais",
-        "url": "https://festasearraiais.pt/eventos/festa-em-honra-de-sao-sebastiao-2026-ervedosa-8709"
+        "url": "https://festasearraiais.pt/eventos/festa-em-honra-de-s-sebastiao-2026-resouro-8710"
       },
       "fontesAdicionais": [
         {
@@ -1991,23 +1861,49 @@
       ]
     },
     {
-      "id": "festasearraiais-festa-em-honra-de-s-sebastiao-2026-parceiros-leiria-2026-01-17",
-      "nome": "Festa em honra de S. Sebastião 2026 - Parceiros",
+      "id": "festasearraiais-festa-em-honra-de-s-sebastiao-2026-soza-vagos-2026-01-16",
+      "nome": "Festa em honra de S. Sebastião 2026 - Soza",
       "categoria": "festa-popular",
-      "municipio": "Leiria",
+      "municipio": "Vagos",
+      "distrito": "Aveiro",
+      "regiao": "",
+      "local": "Soza, Sosa",
+      "lat": 40.544219,
+      "lng": -8.658314,
+      "inicio": "2026-01-16",
+      "fim": "2026-01-25",
+      "estadoData": "confirmada",
+      "descricao": "Festas em honra de S. Sebastião com novenas, arruada, distribuição de papas, baile e missa seguida de procissão.",
+      "origem": "festasearraiais",
+      "fonte": {
+        "nome": "Festas & Arraiais",
+        "url": "https://festasearraiais.pt/eventos/festa-em-honra-de-s-sebastiao-2026-soza-8711"
+      },
+      "fontesAdicionais": [
+        {
+          "nome": "festasearraiais.pt",
+          "url": "https://festasearraiais.pt"
+        }
+      ]
+    },
+    {
+      "id": "festasearraiais-festa-em-honra-de-santo-amaro-2026-pombal-pombal-2026-01-16",
+      "nome": "Festa em honra de Santo Amaro 2026 - Pombal",
+      "categoria": "festa-popular",
+      "municipio": "Pombal",
       "distrito": "Leiria",
       "regiao": "",
-      "local": "Parceiros, União das freguesias de Parceiros e Azoia",
-      "lat": 39.729702,
-      "lng": -8.836064,
-      "inicio": "2026-01-17",
+      "local": "Pombal, Pombal",
+      "lat": 39.917814,
+      "lng": -8.627895,
+      "inicio": "2026-01-16",
       "fim": "2026-01-18",
       "estadoData": "confirmada",
-      "descricao": "Festas em honra de S. Sebastião com eventos como DJ Leonel Vieira, missa e procissão, demonstração de ginástica.",
+      "descricao": "Festa em honra de Santo Amaro com diversas atividades, incluindo caminhada solidária, animação pela cidade, missa e atuações musicais.",
       "origem": "festasearraiais",
       "fonte": {
         "nome": "Festas & Arraiais",
-        "url": "https://festasearraiais.pt/eventos/festa-em-honra-de-s-sebastiao-2026-parceiros-8725"
+        "url": "https://festasearraiais.pt/eventos/festa-em-honra-de-santo-amaro-2026-pombal-8719"
       },
       "fontesAdicionais": [
         {
@@ -2017,23 +1913,49 @@
       ]
     },
     {
-      "id": "festasearraiais-festa-em-honra-de-santo-amaro-2026-muxos-satao-2026-01-17",
-      "nome": "Festa em honra de Santo Amaro 2026 - Muxós",
+      "id": "festasearraiais-festas-de-santo-antao-2026-romariz-vinhais-2026-01-16",
+      "nome": "Festas de Santo Antão 2026 - Romariz",
       "categoria": "festa-popular",
-      "municipio": "Sátão",
-      "distrito": "Viseu",
+      "municipio": "Vinhais",
+      "distrito": "Bragança",
       "regiao": "",
-      "local": "Muxós, Sátão",
-      "lat": 40.746136,
-      "lng": -7.745523,
-      "inicio": "2026-01-17",
-      "fim": "2026-01-18",
+      "local": "Romariz, União das freguesias de Nunes e Ousilhão",
+      "lat": 40.942127,
+      "lng": -8.454748,
+      "inicio": "2026-01-16",
+      "fim": "2026-01-17",
       "estadoData": "confirmada",
-      "descricao": "Torneio de Sueca, Grupo Musical, Missa Solene, Animação com cantadores ao desafio.",
+      "descricao": "Festas de Santo Antão com torneio de sueca, missa solene, procissão e arraial.",
       "origem": "festasearraiais",
       "fonte": {
         "nome": "Festas & Arraiais",
-        "url": "https://festasearraiais.pt/eventos/festa-em-honra-de-santo-amaro-2026-muxos-8754"
+        "url": "https://festasearraiais.pt/eventos/festas-de-santo-antao-2026-romariz-8755"
+      },
+      "fontesAdicionais": [
+        {
+          "nome": "festasearraiais.pt",
+          "url": "https://festasearraiais.pt"
+        }
+      ]
+    },
+    {
+      "id": "festasearraiais-festas-em-honra-de-s-sebastiao-2026-safara-moura-2026-01-16",
+      "nome": "Festas em honra de S. Sebastião 2026 - Safara",
+      "categoria": "festa-popular",
+      "municipio": "Moura",
+      "distrito": "Beja",
+      "regiao": "",
+      "local": "Safara, União das freguesias de Safara e Santo Aleixo da Restauração",
+      "lat": 38.10772,
+      "lng": -7.217753,
+      "inicio": "2026-01-16",
+      "fim": "2026-01-18",
+      "estadoData": "confirmada",
+      "descricao": "Festas em honra de S. Sebastião com diversas atividades culturais e religiosas, incluindo atuações musicais e procissões.",
+      "origem": "festasearraiais",
+      "fonte": {
+        "nome": "Festas & Arraiais",
+        "url": "https://festasearraiais.pt/eventos/festas-em-honra-de-s-sebastiao-2026-safara-8756"
       },
       "fontesAdicionais": [
         {
@@ -2329,6 +2251,84 @@
       ]
     },
     {
+      "id": "festasearraiais-festa-em-honra-de-sao-sebastiao-2026-ervedosa-pinhel-2026-01-17",
+      "nome": "Festa em honra de São Sebastião 2026 - Ervedosa",
+      "categoria": "festa-popular",
+      "municipio": "Pinhel",
+      "distrito": "Guarda",
+      "regiao": "",
+      "local": "Ervedosa, Ervedosa",
+      "lat": 40.845789,
+      "lng": -7.180145,
+      "inicio": "2026-01-17",
+      "fim": "2026-01-18",
+      "estadoData": "confirmada",
+      "descricao": "Baile com o grupo SIGMA. Missa solene seguida de procissão. Arrematação com atuação do grupo Flechas da Concertina.",
+      "origem": "festasearraiais",
+      "fonte": {
+        "nome": "Festas & Arraiais",
+        "url": "https://festasearraiais.pt/eventos/festa-em-honra-de-sao-sebastiao-2026-ervedosa-8709"
+      },
+      "fontesAdicionais": [
+        {
+          "nome": "festasearraiais.pt",
+          "url": "https://festasearraiais.pt"
+        }
+      ]
+    },
+    {
+      "id": "festasearraiais-festa-em-honra-de-s-sebastiao-2026-parceiros-leiria-2026-01-17",
+      "nome": "Festa em honra de S. Sebastião 2026 - Parceiros",
+      "categoria": "festa-popular",
+      "municipio": "Leiria",
+      "distrito": "Leiria",
+      "regiao": "",
+      "local": "Parceiros, União das freguesias de Parceiros e Azoia",
+      "lat": 39.729702,
+      "lng": -8.836064,
+      "inicio": "2026-01-17",
+      "fim": "2026-01-18",
+      "estadoData": "confirmada",
+      "descricao": "Festas em honra de S. Sebastião com eventos como DJ Leonel Vieira, missa e procissão, demonstração de ginástica.",
+      "origem": "festasearraiais",
+      "fonte": {
+        "nome": "Festas & Arraiais",
+        "url": "https://festasearraiais.pt/eventos/festa-em-honra-de-s-sebastiao-2026-parceiros-8725"
+      },
+      "fontesAdicionais": [
+        {
+          "nome": "festasearraiais.pt",
+          "url": "https://festasearraiais.pt"
+        }
+      ]
+    },
+    {
+      "id": "festasearraiais-festa-em-honra-de-santo-amaro-2026-muxos-satao-2026-01-17",
+      "nome": "Festa em honra de Santo Amaro 2026 - Muxós",
+      "categoria": "festa-popular",
+      "municipio": "Sátão",
+      "distrito": "Viseu",
+      "regiao": "",
+      "local": "Muxós, Sátão",
+      "lat": 40.746136,
+      "lng": -7.745523,
+      "inicio": "2026-01-17",
+      "fim": "2026-01-18",
+      "estadoData": "confirmada",
+      "descricao": "Torneio de Sueca, Grupo Musical, Missa Solene, Animação com cantadores ao desafio.",
+      "origem": "festasearraiais",
+      "fonte": {
+        "nome": "Festas & Arraiais",
+        "url": "https://festasearraiais.pt/eventos/festa-em-honra-de-santo-amaro-2026-muxos-8754"
+      },
+      "fontesAdicionais": [
+        {
+          "nome": "festasearraiais.pt",
+          "url": "https://festasearraiais.pt"
+        }
+      ]
+    },
+    {
       "id": "festasearraiais-festas-de-nossa-sra-da-paz-2026-moinho-da-mata-montemor-o-velho-2026-01-18",
       "nome": "Festas de Nossa Sra. da Paz 2026 - Moinho da Mata",
       "categoria": "romaria",
@@ -2346,58 +2346,6 @@
       "fonte": {
         "nome": "Festas & Arraiais",
         "url": "https://festasearraiais.pt/eventos/festas-de-nossa-sra-da-paz-2026-moinho-da-mata-8686"
-      },
-      "fontesAdicionais": [
-        {
-          "nome": "festasearraiais.pt",
-          "url": "https://festasearraiais.pt"
-        }
-      ]
-    },
-    {
-      "id": "festasearraiais-festa-em-honra-de-martir-sao-sebastiao-2026-pacos-sabrosa-2026-01-19",
-      "nome": "Festa em honra de Mártir São Sebastião 2026 - Paços",
-      "categoria": "festa-popular",
-      "municipio": "Sabrosa",
-      "distrito": "Vila Real",
-      "regiao": "",
-      "local": "Paços, Paços",
-      "lat": 41.262874,
-      "lng": -7.593898,
-      "inicio": "2026-01-19",
-      "fim": "2026-01-20",
-      "estadoData": "confirmada",
-      "descricao": "Festas em honra de Mártir São Sebastião com eventos musicais e religiosos.",
-      "origem": "festasearraiais",
-      "fonte": {
-        "nome": "Festas & Arraiais",
-        "url": "https://festasearraiais.pt/eventos/festa-em-honra-de-martir-sao-sebastiao-2026-pacos-8757"
-      },
-      "fontesAdicionais": [
-        {
-          "nome": "festasearraiais.pt",
-          "url": "https://festasearraiais.pt"
-        }
-      ]
-    },
-    {
-      "id": "festasearraiais-festas-em-honra-de-sao-sebastiao-2026-rio-tinto-gondomar-2026-01-19",
-      "nome": "Festas em honra de São Sebastião 2026 - Rio Tinto",
-      "categoria": "festa-popular",
-      "municipio": "Gondomar",
-      "distrito": "Porto",
-      "regiao": "",
-      "local": "Rio Tinto, Rio Tinto",
-      "lat": 41.1704,
-      "lng": -8.5536,
-      "inicio": "2026-01-19",
-      "fim": "2026-01-25",
-      "estadoData": "confirmada",
-      "descricao": "Festas em honra de São Sebastião com diversas atividades culturais e religiosas.",
-      "origem": "festasearraiais",
-      "fonte": {
-        "nome": "Festas & Arraiais",
-        "url": "https://festasearraiais.pt/eventos/festas-em-honra-de-sao-sebastiao-2026-rio-tinto-8776"
       },
       "fontesAdicionais": [
         {
@@ -2459,23 +2407,23 @@
       ]
     },
     {
-      "id": "festasearraiais-festa-em-honra-de-s-sebastiao-2026-sernancelhe-sernancelhe-2026-01-20",
-      "nome": "Festa em honra de S. Sebastião 2026 - Sernancelhe",
+      "id": "festasearraiais-festa-em-honra-de-martir-sao-sebastiao-2026-pacos-sabrosa-2026-01-19",
+      "nome": "Festa em honra de Mártir São Sebastião 2026 - Paços",
       "categoria": "festa-popular",
-      "municipio": "Sernancelhe",
-      "distrito": "Viseu",
+      "municipio": "Sabrosa",
+      "distrito": "Vila Real",
       "regiao": "",
-      "local": "Exposalão de Sernancelhe, União das freguesias de Sernancelhe e Sarzeda",
-      "lat": 40.8982,
-      "lng": -7.4931,
-      "inicio": "2026-01-20",
-      "fim": "2026-01-25",
+      "local": "Paços, Paços",
+      "lat": 41.262874,
+      "lng": -7.593898,
+      "inicio": "2026-01-19",
+      "fim": "2026-01-20",
       "estadoData": "confirmada",
-      "descricao": "Festa em honra do Mártir S. Sebastião com missas, concertos, arruadas, procissão e fogo de artifício.",
+      "descricao": "Festas em honra de Mártir São Sebastião com eventos musicais e religiosos.",
       "origem": "festasearraiais",
       "fonte": {
         "nome": "Festas & Arraiais",
-        "url": "https://festasearraiais.pt/eventos/festa-em-honra-de-s-sebastiao-2026-sernancelhe-8735"
+        "url": "https://festasearraiais.pt/eventos/festa-em-honra-de-martir-sao-sebastiao-2026-pacos-8757"
       },
       "fontesAdicionais": [
         {
@@ -2485,127 +2433,23 @@
       ]
     },
     {
-      "id": "festasearraiais-festas-em-honra-de-sao-sebastiao-2026-vilarinho-das-cambas-vila-nova-de-famalicao-2026-01-20",
-      "nome": "Festas em honra de São Sebastião 2026 - Vilarinho das Cambas",
+      "id": "festasearraiais-festas-em-honra-de-sao-sebastiao-2026-rio-tinto-gondomar-2026-01-19",
+      "nome": "Festas em honra de São Sebastião 2026 - Rio Tinto",
       "categoria": "festa-popular",
-      "municipio": "Vila Nova de Famalicão",
-      "distrito": "Braga",
+      "municipio": "Gondomar",
+      "distrito": "Porto",
       "regiao": "",
-      "local": "Vilarinho das Cambas, Vilarinho das Cambas",
-      "lat": 41.387395,
-      "lng": -8.554642,
-      "inicio": "2026-01-20",
+      "local": "Rio Tinto, Rio Tinto",
+      "lat": 41.1704,
+      "lng": -8.5536,
+      "inicio": "2026-01-19",
       "fim": "2026-01-25",
       "estadoData": "confirmada",
-      "descricao": "Festas em honra do Mártir São Sebastião com eucaristias, procissão e atuação do Grupo Folclórico de Nine.",
+      "descricao": "Festas em honra de São Sebastião com diversas atividades culturais e religiosas.",
       "origem": "festasearraiais",
       "fonte": {
         "nome": "Festas & Arraiais",
-        "url": "https://festasearraiais.pt/eventos/festas-em-honra-de-sao-sebastiao-2026-vilarinho-das-cambas-8736"
-      },
-      "fontesAdicionais": [
-        {
-          "nome": "festasearraiais.pt",
-          "url": "https://festasearraiais.pt"
-        }
-      ]
-    },
-    {
-      "id": "festasearraiais-festa-em-honra-de-sao-sebastiao-2026-vila-verde-de-matos-caldas-da-rainha-2026-01-20",
-      "nome": "Festa em honra de São Sebastião 2026 - Vila Verde de Matos",
-      "categoria": "festa-popular",
-      "municipio": "Caldas da Rainha",
-      "distrito": "Leiria",
-      "regiao": "",
-      "local": "Vila Verde de Matos, A dos Francos",
-      "lat": 39.319132,
-      "lng": -9.080169,
-      "inicio": "2026-01-20",
-      "fim": "2026-01-25",
-      "estadoData": "confirmada",
-      "descricao": "Festa em honra de São Sebastião com missas, jantares, atuações musicais e DJ.",
-      "origem": "festasearraiais",
-      "fonte": {
-        "nome": "Festas & Arraiais",
-        "url": "https://festasearraiais.pt/eventos/festa-em-honra-de-sao-sebastiao-2026-vila-verde-de-matos-8739"
-      },
-      "fontesAdicionais": [
-        {
-          "nome": "festasearraiais.pt",
-          "url": "https://festasearraiais.pt"
-        }
-      ]
-    },
-    {
-      "id": "festasearraiais-festa-em-honra-de-s-sebastiao-2026-vale-de-salgueiro-mirandela-2026-01-20",
-      "nome": "Festa em honra de S. Sebastião 2026 - Vale de Salgueiro",
-      "categoria": "festa-popular",
-      "municipio": "Mirandela",
-      "distrito": "Bragança",
-      "regiao": "",
-      "local": "Vale de Salgueiro, Vale de Salgueiro",
-      "lat": 41.3842,
-      "lng": -7.1271,
-      "inicio": "2026-01-20",
-      "fim": "2026-01-25",
-      "estadoData": "confirmada",
-      "descricao": "Missa, procissão, grupo Transmontano, almoço convívio, arrematação.",
-      "origem": "festasearraiais",
-      "fonte": {
-        "nome": "Festas & Arraiais",
-        "url": "https://festasearraiais.pt/eventos/festa-em-honra-de-s-sebastiao-2026-vale-de-salgueiro-8751"
-      },
-      "fontesAdicionais": [
-        {
-          "nome": "festasearraiais.pt",
-          "url": "https://festasearraiais.pt"
-        }
-      ]
-    },
-    {
-      "id": "festasearraiais-festas-em-honra-de-s-sebastiao-2026-sande-vila-verde-2026-01-20",
-      "nome": "Festas em honra de S. Sebastião 2026 - Sande",
-      "categoria": "festa-popular",
-      "municipio": "Vila Verde",
-      "distrito": "Braga",
-      "regiao": "",
-      "local": "Sande, União das freguesias de Sande, Vilarinho, Barros e Gomide",
-      "lat": 41.70268,
-      "lng": -8.392731,
-      "inicio": "2026-01-20",
-      "fim": "2026-01-25",
-      "estadoData": "confirmada",
-      "descricao": "Festas em honra de S. Sebastião com missa, procissão, atuações musicais e fogo de artifício.",
-      "origem": "festasearraiais",
-      "fonte": {
-        "nome": "Festas & Arraiais",
-        "url": "https://festasearraiais.pt/eventos/festas-em-honra-de-s-sebastiao-2026-sande-8764"
-      },
-      "fontesAdicionais": [
-        {
-          "nome": "festasearraiais.pt",
-          "url": "https://festasearraiais.pt"
-        }
-      ]
-    },
-    {
-      "id": "festasearraiais-festa-em-honra-de-sao-sebastiao-2026-torre-de-moncorvo-torre-de-moncorvo-2026-01-20",
-      "nome": "Festa em honra de São Sebastião 2026 - Torre de Moncorvo",
-      "categoria": "festa-popular",
-      "municipio": "Torre de Moncorvo",
-      "distrito": "Bragança",
-      "regiao": "",
-      "local": "Torre de Moncorvo, Torre de Moncorvo",
-      "lat": 41.1749,
-      "lng": -7.0533,
-      "inicio": "2026-01-20",
-      "fim": "2026-01-25",
-      "estadoData": "confirmada",
-      "descricao": "Festa em honra de São Sebastião com missas, procissão e atuação do organista David Caetano.",
-      "origem": "festasearraiais",
-      "fonte": {
-        "nome": "Festas & Arraiais",
-        "url": "https://festasearraiais.pt/eventos/festa-em-honra-de-sao-sebastiao-2026-torre-de-moncorvo-8780"
+        "url": "https://festasearraiais.pt/eventos/festas-em-honra-de-sao-sebastiao-2026-rio-tinto-8776"
       },
       "fontesAdicionais": [
         {
@@ -2875,6 +2719,266 @@
       ]
     },
     {
+      "id": "festasearraiais-festa-em-honra-de-s-sebastiao-2026-sernancelhe-sernancelhe-2026-01-20",
+      "nome": "Festa em honra de S. Sebastião 2026 - Sernancelhe",
+      "categoria": "festa-popular",
+      "municipio": "Sernancelhe",
+      "distrito": "Viseu",
+      "regiao": "",
+      "local": "Exposalão de Sernancelhe, União das freguesias de Sernancelhe e Sarzeda",
+      "lat": 40.8982,
+      "lng": -7.4931,
+      "inicio": "2026-01-20",
+      "fim": "2026-01-25",
+      "estadoData": "confirmada",
+      "descricao": "Festa em honra do Mártir S. Sebastião com missas, concertos, arruadas, procissão e fogo de artifício.",
+      "origem": "festasearraiais",
+      "fonte": {
+        "nome": "Festas & Arraiais",
+        "url": "https://festasearraiais.pt/eventos/festa-em-honra-de-s-sebastiao-2026-sernancelhe-8735"
+      },
+      "fontesAdicionais": [
+        {
+          "nome": "festasearraiais.pt",
+          "url": "https://festasearraiais.pt"
+        }
+      ]
+    },
+    {
+      "id": "festasearraiais-festas-em-honra-de-sao-sebastiao-2026-vilarinho-das-cambas-vila-nova-de-famalicao-2026-01-20",
+      "nome": "Festas em honra de São Sebastião 2026 - Vilarinho das Cambas",
+      "categoria": "festa-popular",
+      "municipio": "Vila Nova de Famalicão",
+      "distrito": "Braga",
+      "regiao": "",
+      "local": "Vilarinho das Cambas, Vilarinho das Cambas",
+      "lat": 41.387395,
+      "lng": -8.554642,
+      "inicio": "2026-01-20",
+      "fim": "2026-01-25",
+      "estadoData": "confirmada",
+      "descricao": "Festas em honra do Mártir São Sebastião com eucaristias, procissão e atuação do Grupo Folclórico de Nine.",
+      "origem": "festasearraiais",
+      "fonte": {
+        "nome": "Festas & Arraiais",
+        "url": "https://festasearraiais.pt/eventos/festas-em-honra-de-sao-sebastiao-2026-vilarinho-das-cambas-8736"
+      },
+      "fontesAdicionais": [
+        {
+          "nome": "festasearraiais.pt",
+          "url": "https://festasearraiais.pt"
+        }
+      ]
+    },
+    {
+      "id": "festasearraiais-festa-em-honra-de-sao-sebastiao-2026-vila-verde-de-matos-caldas-da-rainha-2026-01-20",
+      "nome": "Festa em honra de São Sebastião 2026 - Vila Verde de Matos",
+      "categoria": "festa-popular",
+      "municipio": "Caldas da Rainha",
+      "distrito": "Leiria",
+      "regiao": "",
+      "local": "Vila Verde de Matos, A dos Francos",
+      "lat": 39.319132,
+      "lng": -9.080169,
+      "inicio": "2026-01-20",
+      "fim": "2026-01-25",
+      "estadoData": "confirmada",
+      "descricao": "Festa em honra de São Sebastião com missas, jantares, atuações musicais e DJ.",
+      "origem": "festasearraiais",
+      "fonte": {
+        "nome": "Festas & Arraiais",
+        "url": "https://festasearraiais.pt/eventos/festa-em-honra-de-sao-sebastiao-2026-vila-verde-de-matos-8739"
+      },
+      "fontesAdicionais": [
+        {
+          "nome": "festasearraiais.pt",
+          "url": "https://festasearraiais.pt"
+        }
+      ]
+    },
+    {
+      "id": "festasearraiais-festa-em-honra-de-s-sebastiao-2026-vale-de-salgueiro-mirandela-2026-01-20",
+      "nome": "Festa em honra de S. Sebastião 2026 - Vale de Salgueiro",
+      "categoria": "festa-popular",
+      "municipio": "Mirandela",
+      "distrito": "Bragança",
+      "regiao": "",
+      "local": "Vale de Salgueiro, Vale de Salgueiro",
+      "lat": 41.3842,
+      "lng": -7.1271,
+      "inicio": "2026-01-20",
+      "fim": "2026-01-25",
+      "estadoData": "confirmada",
+      "descricao": "Missa, procissão, grupo Transmontano, almoço convívio, arrematação.",
+      "origem": "festasearraiais",
+      "fonte": {
+        "nome": "Festas & Arraiais",
+        "url": "https://festasearraiais.pt/eventos/festa-em-honra-de-s-sebastiao-2026-vale-de-salgueiro-8751"
+      },
+      "fontesAdicionais": [
+        {
+          "nome": "festasearraiais.pt",
+          "url": "https://festasearraiais.pt"
+        }
+      ]
+    },
+    {
+      "id": "festasearraiais-festas-em-honra-de-s-sebastiao-2026-sande-vila-verde-2026-01-20",
+      "nome": "Festas em honra de S. Sebastião 2026 - Sande",
+      "categoria": "festa-popular",
+      "municipio": "Vila Verde",
+      "distrito": "Braga",
+      "regiao": "",
+      "local": "Sande, União das freguesias de Sande, Vilarinho, Barros e Gomide",
+      "lat": 41.70268,
+      "lng": -8.392731,
+      "inicio": "2026-01-20",
+      "fim": "2026-01-25",
+      "estadoData": "confirmada",
+      "descricao": "Festas em honra de S. Sebastião com missa, procissão, atuações musicais e fogo de artifício.",
+      "origem": "festasearraiais",
+      "fonte": {
+        "nome": "Festas & Arraiais",
+        "url": "https://festasearraiais.pt/eventos/festas-em-honra-de-s-sebastiao-2026-sande-8764"
+      },
+      "fontesAdicionais": [
+        {
+          "nome": "festasearraiais.pt",
+          "url": "https://festasearraiais.pt"
+        }
+      ]
+    },
+    {
+      "id": "festasearraiais-festa-em-honra-de-sao-sebastiao-2026-torre-de-moncorvo-torre-de-moncorvo-2026-01-20",
+      "nome": "Festa em honra de São Sebastião 2026 - Torre de Moncorvo",
+      "categoria": "festa-popular",
+      "municipio": "Torre de Moncorvo",
+      "distrito": "Bragança",
+      "regiao": "",
+      "local": "Torre de Moncorvo, Torre de Moncorvo",
+      "lat": 41.1749,
+      "lng": -7.0533,
+      "inicio": "2026-01-20",
+      "fim": "2026-01-25",
+      "estadoData": "confirmada",
+      "descricao": "Festa em honra de São Sebastião com missas, procissão e atuação do organista David Caetano.",
+      "origem": "festasearraiais",
+      "fonte": {
+        "nome": "Festas & Arraiais",
+        "url": "https://festasearraiais.pt/eventos/festa-em-honra-de-sao-sebastiao-2026-torre-de-moncorvo-8780"
+      },
+      "fontesAdicionais": [
+        {
+          "nome": "festasearraiais.pt",
+          "url": "https://festasearraiais.pt"
+        }
+      ]
+    },
+    {
+      "id": "festasearraiais-festas-em-honra-de-sao-vicente-2026-sao-vicente-de-sousa-felgueiras-2026-01-22",
+      "nome": "Festas em Honra de São Vicente 2026 - São Vicente de Sousa",
+      "categoria": "festa-popular",
+      "municipio": "Felgueiras",
+      "distrito": "Porto",
+      "regiao": "",
+      "local": "São Vicente de Sousa, União das freguesias de Torrados e Sousa",
+      "lat": 41.343775,
+      "lng": -8.248941,
+      "inicio": "2026-01-22",
+      "fim": "2026-01-25",
+      "estadoData": "confirmada",
+      "descricao": "Festas em Honra de São Vicente 2026 - São Vicente de Sousa",
+      "origem": "festasearraiais",
+      "fonte": {
+        "nome": "Festas & Arraiais",
+        "url": "https://festasearraiais.pt/eventos/festas-em-honra-de-sao-vicente-2026-sao-vicente-de-sousa-8539"
+      },
+      "fontesAdicionais": [
+        {
+          "nome": "festasearraiais.pt",
+          "url": "https://festasearraiais.pt"
+        }
+      ]
+    },
+    {
+      "id": "festasearraiais-festa-em-honra-de-sao-vicente-e-sao-sebastiao-2026-oleiros-guimaraes-2026-01-22",
+      "nome": "Festa em honra de São Vicente e São Sebastião 2026 - Oleiros",
+      "categoria": "festa-popular",
+      "municipio": "Guimarães",
+      "distrito": "Braga",
+      "regiao": "",
+      "local": "Oleiros, União das freguesias de Leitões, Oleiros e Figueiredo",
+      "lat": 41.460437,
+      "lng": -8.401584,
+      "inicio": "2026-01-22",
+      "fim": "2026-01-25",
+      "estadoData": "confirmada",
+      "descricao": "Festa em honra de São Vicente e São Sebastião com eucaristias, procissão, atuações musicais, fogo de artifício e petiscos.",
+      "origem": "festasearraiais",
+      "fonte": {
+        "nome": "Festas & Arraiais",
+        "url": "https://festasearraiais.pt/eventos/festa-em-honra-de-sao-vicente-e-sao-sebastiao-2026-oleiros-8564"
+      },
+      "fontesAdicionais": [
+        {
+          "nome": "festasearraiais.pt",
+          "url": "https://festasearraiais.pt"
+        }
+      ]
+    },
+    {
+      "id": "festasearraiais-festa-em-honra-de-sao-vicente-2026-murteira-e-barreirinhas-santarem-2026-01-22",
+      "nome": "Festa em honra de São Vicente 2026 - Murteira e Barreirinhas",
+      "categoria": "festa-popular",
+      "municipio": "Santarém",
+      "distrito": "Santarém",
+      "regiao": "",
+      "local": "Murteira e Barreirinhas, Alcanede",
+      "lat": 39.444358,
+      "lng": -8.818508,
+      "inicio": "2026-01-22",
+      "fim": "2026-01-26",
+      "estadoData": "confirmada",
+      "descricao": "Festa em honra de São Vicente 2026 - Murteira e Barreirinhas",
+      "origem": "festasearraiais",
+      "fonte": {
+        "nome": "Festas & Arraiais",
+        "url": "https://festasearraiais.pt/eventos/festa-em-honra-de-sao-vicente-2026-murteira-e-barreirinhas-8629"
+      },
+      "fontesAdicionais": [
+        {
+          "nome": "festasearraiais.pt",
+          "url": "https://festasearraiais.pt"
+        }
+      ]
+    },
+    {
+      "id": "festasearraiais-feira-rural-2026-lombada-braganca-2026-01-22",
+      "nome": "Feira Rural 2026 - Lombada",
+      "categoria": "feira-tradicional",
+      "municipio": "Bragança",
+      "distrito": "Bragança",
+      "regiao": "",
+      "local": "Lombada, União das freguesias de São Julião de Palácios e Deilão",
+      "lat": 41.820782,
+      "lng": -6.598353,
+      "inicio": "2026-01-22",
+      "fim": "2026-01-25",
+      "estadoData": "confirmada",
+      "descricao": "Expositores, Concursos, Passeios, Montarias, Concertos, Convívio",
+      "origem": "festasearraiais",
+      "fonte": {
+        "nome": "Festas & Arraiais",
+        "url": "https://festasearraiais.pt/eventos/feira-rural-2026-lombada-8647"
+      },
+      "fontesAdicionais": [
+        {
+          "nome": "festasearraiais.pt",
+          "url": "https://festasearraiais.pt"
+        }
+      ]
+    },
+    {
       "id": "festasearraiais-festa-em-honra-de-martir-sao-sebastiao-2026-sobreiro-curvo-torres-vedras-2026-01-22",
       "nome": "Festa em honra de Mártir São Sebastião 2026 - Sobreiro Curvo",
       "categoria": "festa-popular",
@@ -3083,32 +3187,6 @@
       ]
     },
     {
-      "id": "festasearraiais-festas-em-honra-de-sao-vicente-2026-sao-vicente-de-sousa-felgueiras-2026-01-22",
-      "nome": "Festas em Honra de São Vicente 2026 - São Vicente de Sousa",
-      "categoria": "festa-popular",
-      "municipio": "Felgueiras",
-      "distrito": "Porto",
-      "regiao": "",
-      "local": "São Vicente de Sousa, União das freguesias de Torrados e Sousa",
-      "lat": 41.343775,
-      "lng": -8.248941,
-      "inicio": "2026-01-22",
-      "fim": "2026-01-25",
-      "estadoData": "confirmada",
-      "descricao": "Festas em Honra de São Vicente 2026 - São Vicente de Sousa",
-      "origem": "festasearraiais",
-      "fonte": {
-        "nome": "Festas & Arraiais",
-        "url": "https://festasearraiais.pt/eventos/festas-em-honra-de-sao-vicente-2026-sao-vicente-de-sousa-8539"
-      },
-      "fontesAdicionais": [
-        {
-          "nome": "festasearraiais.pt",
-          "url": "https://festasearraiais.pt"
-        }
-      ]
-    },
-    {
       "id": "festasearraiais-festas-em-honra-de-s-vicente-2026-boim-lousada-2026-01-22",
       "nome": "Festas em honra de S. Vicente 2026 - Boim",
       "categoria": "festa-popular",
@@ -3187,23 +3265,23 @@
       ]
     },
     {
-      "id": "festasearraiais-festa-em-honra-de-sao-vicente-e-sao-sebastiao-2026-oleiros-guimaraes-2026-01-22",
-      "nome": "Festa em honra de São Vicente e São Sebastião 2026 - Oleiros",
-      "categoria": "festa-popular",
-      "municipio": "Guimarães",
-      "distrito": "Braga",
+      "id": "festasearraiais-festa-em-honra-de-nossa-senhora-da-esperanca-2026-coutada-torres-vedras-2026-01-23",
+      "nome": "Festa em honra de Nossa Senhora da Esperança 2026 - Coutada",
+      "categoria": "romaria",
+      "municipio": "Torres Vedras",
+      "distrito": "Lisboa",
       "regiao": "",
-      "local": "Oleiros, União das freguesias de Leitões, Oleiros e Figueiredo",
-      "lat": 41.460437,
-      "lng": -8.401584,
-      "inicio": "2026-01-22",
-      "fim": "2026-01-25",
+      "local": "Coutada, São Pedro da Cadeira",
+      "lat": 39.083181,
+      "lng": -9.364074,
+      "inicio": "2026-01-23",
+      "fim": "2026-02-02",
       "estadoData": "confirmada",
-      "descricao": "Festa em honra de São Vicente e São Sebastião com eucaristias, procissão, atuações musicais, fogo de artifício e petiscos.",
+      "descricao": "Festa anual em honra de Nossa Senhora da Esperança com várias atividades, incluindo bailes, jogos, e eventos culturais.",
       "origem": "festasearraiais",
       "fonte": {
         "nome": "Festas & Arraiais",
-        "url": "https://festasearraiais.pt/eventos/festa-em-honra-de-sao-vicente-e-sao-sebastiao-2026-oleiros-8564"
+        "url": "https://festasearraiais.pt/eventos/festa-em-honra-de-nossa-senhora-da-esperanca-2026-coutada-8582"
       },
       "fontesAdicionais": [
         {
@@ -3213,23 +3291,23 @@
       ]
     },
     {
-      "id": "festasearraiais-festa-em-honra-de-sao-vicente-2026-murteira-e-barreirinhas-santarem-2026-01-22",
-      "nome": "Festa em honra de São Vicente 2026 - Murteira e Barreirinhas",
+      "id": "festasearraiais-festa-em-honra-de-sao-joao-crisostomo-2026-aldeia-da-ribeira-santarem-2026-01-23",
+      "nome": "Festa em honra de São João Crisóstomo 2026 - Aldeia da Ribeira",
       "categoria": "festa-popular",
       "municipio": "Santarém",
       "distrito": "Santarém",
       "regiao": "",
-      "local": "Murteira e Barreirinhas, Alcanede",
-      "lat": 39.444358,
-      "lng": -8.818508,
-      "inicio": "2026-01-22",
-      "fim": "2026-01-26",
+      "local": "Aldeia da Ribeira, Alcanede",
+      "lat": 39.38895,
+      "lng": -8.806236,
+      "inicio": "2026-01-23",
+      "fim": "2026-01-27",
       "estadoData": "confirmada",
-      "descricao": "Festa em honra de São Vicente 2026 - Murteira e Barreirinhas",
+      "descricao": "Festa em honra de São João Crisóstomo com várias atividades, incluindo missas, atuações de bandas, fogo de artifício e animação.",
       "origem": "festasearraiais",
       "fonte": {
         "nome": "Festas & Arraiais",
-        "url": "https://festasearraiais.pt/eventos/festa-em-honra-de-sao-vicente-2026-murteira-e-barreirinhas-8629"
+        "url": "https://festasearraiais.pt/eventos/festa-em-honra-de-sao-joao-crisostomo-2026-aldeia-da-ribeira-8625"
       },
       "fontesAdicionais": [
         {
@@ -3239,23 +3317,205 @@
       ]
     },
     {
-      "id": "festasearraiais-feira-rural-2026-lombada-braganca-2026-01-22",
-      "nome": "Feira Rural 2026 - Lombada",
-      "categoria": "feira-tradicional",
-      "municipio": "Bragança",
-      "distrito": "Bragança",
+      "id": "festasearraiais-festa-em-honra-de-s-sebastiao-2026-cortes-leiria-2026-01-23",
+      "nome": "Festa em honra de S. Sebastião 2026 - Cortes",
+      "categoria": "festa-popular",
+      "municipio": "Leiria",
+      "distrito": "Leiria",
       "regiao": "",
-      "local": "Lombada, União das freguesias de São Julião de Palácios e Deilão",
-      "lat": 41.820782,
-      "lng": -6.598353,
-      "inicio": "2026-01-22",
+      "local": "Cortes, União das freguesias de Leiria, Pousos, Barreira e Cortes",
+      "lat": 39.70115,
+      "lng": -8.784895,
+      "inicio": "2026-01-23",
       "fim": "2026-01-25",
       "estadoData": "confirmada",
-      "descricao": "Expositores, Concursos, Passeios, Montarias, Concertos, Convívio",
+      "descricao": "Festa em honra de S. Sebastião com atuações de DJ Melro, Banda N'ASA, DJ João Paulo, Filarmónica das Cortes e Fanfarra Tokifoge.",
       "origem": "festasearraiais",
       "fonte": {
         "nome": "Festas & Arraiais",
-        "url": "https://festasearraiais.pt/eventos/feira-rural-2026-lombada-8647"
+        "url": "https://festasearraiais.pt/eventos/festa-em-honra-de-s-sebastiao-2026-cortes-8626"
+      },
+      "fontesAdicionais": [
+        {
+          "nome": "festasearraiais.pt",
+          "url": "https://festasearraiais.pt"
+        }
+      ]
+    },
+    {
+      "id": "festasearraiais-festa-em-honra-de-s-sebastiao-2026-serzedo-guimaraes-2026-01-23",
+      "nome": "Festa em honra de S. Sebastião 2026 - Serzedo",
+      "categoria": "festa-popular",
+      "municipio": "Guimarães",
+      "distrito": "Braga",
+      "regiao": "",
+      "local": "Serzedo, União das freguesias de Serzedo e Calvos",
+      "lat": 41.40431,
+      "lng": -8.232996,
+      "inicio": "2026-01-23",
+      "fim": "2026-01-25",
+      "estadoData": "confirmada",
+      "descricao": "Festa em honra de S. Sebastião com procissão, missa solene, cortejo das prendas, atuações musicais e fogo de artifício.",
+      "origem": "festasearraiais",
+      "fonte": {
+        "nome": "Festas & Arraiais",
+        "url": "https://festasearraiais.pt/eventos/festa-em-honra-de-s-sebastiao-2026-serzedo-8639"
+      },
+      "fontesAdicionais": [
+        {
+          "nome": "festasearraiais.pt",
+          "url": "https://festasearraiais.pt"
+        }
+      ]
+    },
+    {
+      "id": "festasearraiais-festa-em-honra-de-s-sebastiao-2026-teivas-viseu-2026-01-23",
+      "nome": "Festa em honra de S. Sebastião 2026 - Teivas",
+      "categoria": "festa-popular",
+      "municipio": "Viseu",
+      "distrito": "Viseu",
+      "regiao": "",
+      "local": "Teivas, São João de Lourosa",
+      "lat": 40.615661,
+      "lng": -7.925382,
+      "inicio": "2026-01-23",
+      "fim": "2026-01-25",
+      "estadoData": "confirmada",
+      "descricao": "Festa em honra de S. Sebastião com atuações de bandas e DJs.",
+      "origem": "festasearraiais",
+      "fonte": {
+        "nome": "Festas & Arraiais",
+        "url": "https://festasearraiais.pt/eventos/festa-em-honra-de-s-sebastiao-2026-teivas-8663"
+      },
+      "fontesAdicionais": [
+        {
+          "nome": "festasearraiais.pt",
+          "url": "https://festasearraiais.pt"
+        }
+      ]
+    },
+    {
+      "id": "festasearraiais-festa-em-honra-de-s-sebastiao-2026-vila-pouca-da-beira-oliveira-do-hospital-2026-01-23",
+      "nome": "Festa em honra de S. Sebastião 2026 - Vila Pouca da Beira",
+      "categoria": "festa-popular",
+      "municipio": "Oliveira do Hospital",
+      "distrito": "Coimbra",
+      "regiao": "",
+      "local": "Rua Fonte das Almas, União das freguesias de Santa Ovaia e Vila Pouca da Beira",
+      "lat": 40.313939,
+      "lng": -7.888072,
+      "inicio": "2026-01-23",
+      "fim": "2026-01-25",
+      "estadoData": "confirmada",
+      "descricao": "Festa em honra de S. Sebastião com atividades culturais, animação musical, arruadas, missa e distribuição de Bodo.",
+      "origem": "festasearraiais",
+      "fonte": {
+        "nome": "Festas & Arraiais",
+        "url": "https://festasearraiais.pt/eventos/festa-em-honra-de-s-sebastiao-2026-vila-pouca-da-beira-8666"
+      },
+      "fontesAdicionais": [
+        {
+          "nome": "festasearraiais.pt",
+          "url": "https://festasearraiais.pt"
+        }
+      ]
+    },
+    {
+      "id": "festasearraiais-festa-em-honra-de-sao-vicente-2026-rocha-forte-cadaval-2026-01-23",
+      "nome": "Festa em honra de São Vicente 2026 - Rocha Forte",
+      "categoria": "festa-popular",
+      "municipio": "Cadaval",
+      "distrito": "Lisboa",
+      "regiao": "",
+      "local": "Rocha Forte, União das freguesias de Lamas e Cercal",
+      "lat": 39.221211,
+      "lng": -9.049312,
+      "inicio": "2026-01-23",
+      "fim": "2026-01-24",
+      "estadoData": "confirmada",
+      "descricao": "Actuação de Silvino Jacinto, Fernando Ribeiro e DJ Extaka. Restaurante a partir das 20:00 horas.",
+      "origem": "festasearraiais",
+      "fonte": {
+        "nome": "Festas & Arraiais",
+        "url": "https://festasearraiais.pt/eventos/festa-em-honra-de-sao-vicente-2026-rocha-forte-8669"
+      },
+      "fontesAdicionais": [
+        {
+          "nome": "festasearraiais.pt",
+          "url": "https://festasearraiais.pt"
+        }
+      ]
+    },
+    {
+      "id": "festasearraiais-festa-em-honra-de-s-sebastiao-2026-pedreiras-porto-de-mos-2026-01-23",
+      "nome": "Festa em honra de S. Sebastião 2026 - Pedreiras",
+      "categoria": "festa-popular",
+      "municipio": "Porto de Mós",
+      "distrito": "Leiria",
+      "regiao": "",
+      "local": "Pedreiras, Pedreiras",
+      "lat": 39.589714,
+      "lng": -8.863161,
+      "inicio": "2026-01-23",
+      "fim": "2026-01-25",
+      "estadoData": "confirmada",
+      "descricao": "Festa com abertura de restaurante, música ao vivo e atividades religiosas.",
+      "origem": "festasearraiais",
+      "fonte": {
+        "nome": "Festas & Arraiais",
+        "url": "https://festasearraiais.pt/eventos/festa-em-honra-de-s-sebastiao-2026-pedreiras-8684"
+      },
+      "fontesAdicionais": [
+        {
+          "nome": "festasearraiais.pt",
+          "url": "https://festasearraiais.pt"
+        }
+      ]
+    },
+    {
+      "id": "festasearraiais-festa-em-honra-de-sao-sebastiao-2026-pousos-leiria-2026-01-23",
+      "nome": "Festa em honra de São Sebastião 2026 - Pousos",
+      "categoria": "festa-popular",
+      "municipio": "Leiria",
+      "distrito": "Leiria",
+      "regiao": "",
+      "local": "Pousos, União das freguesias de Leiria, Pousos, Barreira e Cortes",
+      "lat": 39.741319,
+      "lng": -8.77741,
+      "inicio": "2026-01-23",
+      "fim": "2026-01-25",
+      "estadoData": "confirmada",
+      "descricao": "Festa em honra de São Sebastião com concertos, missa, procissão e praça de alimentação.",
+      "origem": "festasearraiais",
+      "fonte": {
+        "nome": "Festas & Arraiais",
+        "url": "https://festasearraiais.pt/eventos/festa-em-honra-de-sao-sebastiao-2026-pousos-8685"
+      },
+      "fontesAdicionais": [
+        {
+          "nome": "festasearraiais.pt",
+          "url": "https://festasearraiais.pt"
+        }
+      ]
+    },
+    {
+      "id": "festasearraiais-festa-das-varas-do-fumeiro-2026-aranhas-penamacor-2026-01-23",
+      "nome": "Festa das Varas do Fumeiro 2026 - Aranhas",
+      "categoria": "festa-popular",
+      "municipio": "Penamacor",
+      "distrito": "Castelo Branco",
+      "regiao": "",
+      "local": "Aranhas, Aranhas",
+      "lat": 40.110898,
+      "lng": -7.119351,
+      "inicio": "2026-01-23",
+      "fim": "2026-01-25",
+      "estadoData": "confirmada",
+      "descricao": "Tradição, sabores e autenticidade. A Festa das Varas do Fumeiro, em Aranhas, celebra a gastronomia tradicional e a cultura local, valorizando as raízes e tradições da região.",
+      "origem": "festasearraiais",
+      "fonte": {
+        "nome": "Festas & Arraiais",
+        "url": "https://festasearraiais.pt/eventos/festa-das-varas-do-fumeiro-2026-aranhas-8697"
       },
       "fontesAdicionais": [
         {
@@ -3551,396 +3811,6 @@
       ]
     },
     {
-      "id": "festasearraiais-festa-em-honra-de-nossa-senhora-da-esperanca-2026-coutada-torres-vedras-2026-01-23",
-      "nome": "Festa em honra de Nossa Senhora da Esperança 2026 - Coutada",
-      "categoria": "romaria",
-      "municipio": "Torres Vedras",
-      "distrito": "Lisboa",
-      "regiao": "",
-      "local": "Coutada, São Pedro da Cadeira",
-      "lat": 39.083181,
-      "lng": -9.364074,
-      "inicio": "2026-01-23",
-      "fim": "2026-02-02",
-      "estadoData": "confirmada",
-      "descricao": "Festa anual em honra de Nossa Senhora da Esperança com várias atividades, incluindo bailes, jogos, e eventos culturais.",
-      "origem": "festasearraiais",
-      "fonte": {
-        "nome": "Festas & Arraiais",
-        "url": "https://festasearraiais.pt/eventos/festa-em-honra-de-nossa-senhora-da-esperanca-2026-coutada-8582"
-      },
-      "fontesAdicionais": [
-        {
-          "nome": "festasearraiais.pt",
-          "url": "https://festasearraiais.pt"
-        }
-      ]
-    },
-    {
-      "id": "festasearraiais-festa-em-honra-de-sao-joao-crisostomo-2026-aldeia-da-ribeira-santarem-2026-01-23",
-      "nome": "Festa em honra de São João Crisóstomo 2026 - Aldeia da Ribeira",
-      "categoria": "festa-popular",
-      "municipio": "Santarém",
-      "distrito": "Santarém",
-      "regiao": "",
-      "local": "Aldeia da Ribeira, Alcanede",
-      "lat": 39.38895,
-      "lng": -8.806236,
-      "inicio": "2026-01-23",
-      "fim": "2026-01-27",
-      "estadoData": "confirmada",
-      "descricao": "Festa em honra de São João Crisóstomo com várias atividades, incluindo missas, atuações de bandas, fogo de artifício e animação.",
-      "origem": "festasearraiais",
-      "fonte": {
-        "nome": "Festas & Arraiais",
-        "url": "https://festasearraiais.pt/eventos/festa-em-honra-de-sao-joao-crisostomo-2026-aldeia-da-ribeira-8625"
-      },
-      "fontesAdicionais": [
-        {
-          "nome": "festasearraiais.pt",
-          "url": "https://festasearraiais.pt"
-        }
-      ]
-    },
-    {
-      "id": "festasearraiais-festa-em-honra-de-s-sebastiao-2026-cortes-leiria-2026-01-23",
-      "nome": "Festa em honra de S. Sebastião 2026 - Cortes",
-      "categoria": "festa-popular",
-      "municipio": "Leiria",
-      "distrito": "Leiria",
-      "regiao": "",
-      "local": "Cortes, União das freguesias de Leiria, Pousos, Barreira e Cortes",
-      "lat": 39.70115,
-      "lng": -8.784895,
-      "inicio": "2026-01-23",
-      "fim": "2026-01-25",
-      "estadoData": "confirmada",
-      "descricao": "Festa em honra de S. Sebastião com atuações de DJ Melro, Banda N'ASA, DJ João Paulo, Filarmónica das Cortes e Fanfarra Tokifoge.",
-      "origem": "festasearraiais",
-      "fonte": {
-        "nome": "Festas & Arraiais",
-        "url": "https://festasearraiais.pt/eventos/festa-em-honra-de-s-sebastiao-2026-cortes-8626"
-      },
-      "fontesAdicionais": [
-        {
-          "nome": "festasearraiais.pt",
-          "url": "https://festasearraiais.pt"
-        }
-      ]
-    },
-    {
-      "id": "festasearraiais-festa-em-honra-de-s-sebastiao-2026-serzedo-guimaraes-2026-01-23",
-      "nome": "Festa em honra de S. Sebastião 2026 - Serzedo",
-      "categoria": "festa-popular",
-      "municipio": "Guimarães",
-      "distrito": "Braga",
-      "regiao": "",
-      "local": "Serzedo, União das freguesias de Serzedo e Calvos",
-      "lat": 41.40431,
-      "lng": -8.232996,
-      "inicio": "2026-01-23",
-      "fim": "2026-01-25",
-      "estadoData": "confirmada",
-      "descricao": "Festa em honra de S. Sebastião com procissão, missa solene, cortejo das prendas, atuações musicais e fogo de artifício.",
-      "origem": "festasearraiais",
-      "fonte": {
-        "nome": "Festas & Arraiais",
-        "url": "https://festasearraiais.pt/eventos/festa-em-honra-de-s-sebastiao-2026-serzedo-8639"
-      },
-      "fontesAdicionais": [
-        {
-          "nome": "festasearraiais.pt",
-          "url": "https://festasearraiais.pt"
-        }
-      ]
-    },
-    {
-      "id": "festasearraiais-festa-em-honra-de-s-sebastiao-2026-teivas-viseu-2026-01-23",
-      "nome": "Festa em honra de S. Sebastião 2026 - Teivas",
-      "categoria": "festa-popular",
-      "municipio": "Viseu",
-      "distrito": "Viseu",
-      "regiao": "",
-      "local": "Teivas, São João de Lourosa",
-      "lat": 40.615661,
-      "lng": -7.925382,
-      "inicio": "2026-01-23",
-      "fim": "2026-01-25",
-      "estadoData": "confirmada",
-      "descricao": "Festa em honra de S. Sebastião com atuações de bandas e DJs.",
-      "origem": "festasearraiais",
-      "fonte": {
-        "nome": "Festas & Arraiais",
-        "url": "https://festasearraiais.pt/eventos/festa-em-honra-de-s-sebastiao-2026-teivas-8663"
-      },
-      "fontesAdicionais": [
-        {
-          "nome": "festasearraiais.pt",
-          "url": "https://festasearraiais.pt"
-        }
-      ]
-    },
-    {
-      "id": "festasearraiais-festa-em-honra-de-s-sebastiao-2026-vila-pouca-da-beira-oliveira-do-hospital-2026-01-23",
-      "nome": "Festa em honra de S. Sebastião 2026 - Vila Pouca da Beira",
-      "categoria": "festa-popular",
-      "municipio": "Oliveira do Hospital",
-      "distrito": "Coimbra",
-      "regiao": "",
-      "local": "Rua Fonte das Almas, União das freguesias de Santa Ovaia e Vila Pouca da Beira",
-      "lat": 40.313939,
-      "lng": -7.888072,
-      "inicio": "2026-01-23",
-      "fim": "2026-01-25",
-      "estadoData": "confirmada",
-      "descricao": "Festa em honra de S. Sebastião com atividades culturais, animação musical, arruadas, missa e distribuição de Bodo.",
-      "origem": "festasearraiais",
-      "fonte": {
-        "nome": "Festas & Arraiais",
-        "url": "https://festasearraiais.pt/eventos/festa-em-honra-de-s-sebastiao-2026-vila-pouca-da-beira-8666"
-      },
-      "fontesAdicionais": [
-        {
-          "nome": "festasearraiais.pt",
-          "url": "https://festasearraiais.pt"
-        }
-      ]
-    },
-    {
-      "id": "festasearraiais-festa-em-honra-de-sao-vicente-2026-rocha-forte-cadaval-2026-01-23",
-      "nome": "Festa em honra de São Vicente 2026 - Rocha Forte",
-      "categoria": "festa-popular",
-      "municipio": "Cadaval",
-      "distrito": "Lisboa",
-      "regiao": "",
-      "local": "Rocha Forte, União das freguesias de Lamas e Cercal",
-      "lat": 39.221211,
-      "lng": -9.049312,
-      "inicio": "2026-01-23",
-      "fim": "2026-01-24",
-      "estadoData": "confirmada",
-      "descricao": "Actuação de Silvino Jacinto, Fernando Ribeiro e DJ Extaka. Restaurante a partir das 20:00 horas.",
-      "origem": "festasearraiais",
-      "fonte": {
-        "nome": "Festas & Arraiais",
-        "url": "https://festasearraiais.pt/eventos/festa-em-honra-de-sao-vicente-2026-rocha-forte-8669"
-      },
-      "fontesAdicionais": [
-        {
-          "nome": "festasearraiais.pt",
-          "url": "https://festasearraiais.pt"
-        }
-      ]
-    },
-    {
-      "id": "festasearraiais-festa-em-honra-de-s-sebastiao-2026-pedreiras-porto-de-mos-2026-01-23",
-      "nome": "Festa em honra de S. Sebastião 2026 - Pedreiras",
-      "categoria": "festa-popular",
-      "municipio": "Porto de Mós",
-      "distrito": "Leiria",
-      "regiao": "",
-      "local": "Pedreiras, Pedreiras",
-      "lat": 39.589714,
-      "lng": -8.863161,
-      "inicio": "2026-01-23",
-      "fim": "2026-01-25",
-      "estadoData": "confirmada",
-      "descricao": "Festa com abertura de restaurante, música ao vivo e atividades religiosas.",
-      "origem": "festasearraiais",
-      "fonte": {
-        "nome": "Festas & Arraiais",
-        "url": "https://festasearraiais.pt/eventos/festa-em-honra-de-s-sebastiao-2026-pedreiras-8684"
-      },
-      "fontesAdicionais": [
-        {
-          "nome": "festasearraiais.pt",
-          "url": "https://festasearraiais.pt"
-        }
-      ]
-    },
-    {
-      "id": "festasearraiais-festa-em-honra-de-sao-sebastiao-2026-pousos-leiria-2026-01-23",
-      "nome": "Festa em honra de São Sebastião 2026 - Pousos",
-      "categoria": "festa-popular",
-      "municipio": "Leiria",
-      "distrito": "Leiria",
-      "regiao": "",
-      "local": "Pousos, União das freguesias de Leiria, Pousos, Barreira e Cortes",
-      "lat": 39.741319,
-      "lng": -8.77741,
-      "inicio": "2026-01-23",
-      "fim": "2026-01-25",
-      "estadoData": "confirmada",
-      "descricao": "Festa em honra de São Sebastião com concertos, missa, procissão e praça de alimentação.",
-      "origem": "festasearraiais",
-      "fonte": {
-        "nome": "Festas & Arraiais",
-        "url": "https://festasearraiais.pt/eventos/festa-em-honra-de-sao-sebastiao-2026-pousos-8685"
-      },
-      "fontesAdicionais": [
-        {
-          "nome": "festasearraiais.pt",
-          "url": "https://festasearraiais.pt"
-        }
-      ]
-    },
-    {
-      "id": "festasearraiais-festa-das-varas-do-fumeiro-2026-aranhas-penamacor-2026-01-23",
-      "nome": "Festa das Varas do Fumeiro 2026 - Aranhas",
-      "categoria": "festa-popular",
-      "municipio": "Penamacor",
-      "distrito": "Castelo Branco",
-      "regiao": "",
-      "local": "Aranhas, Aranhas",
-      "lat": 40.110898,
-      "lng": -7.119351,
-      "inicio": "2026-01-23",
-      "fim": "2026-01-25",
-      "estadoData": "confirmada",
-      "descricao": "Tradição, sabores e autenticidade. A Festa das Varas do Fumeiro, em Aranhas, celebra a gastronomia tradicional e a cultura local, valorizando as raízes e tradições da região.",
-      "origem": "festasearraiais",
-      "fonte": {
-        "nome": "Festas & Arraiais",
-        "url": "https://festasearraiais.pt/eventos/festa-das-varas-do-fumeiro-2026-aranhas-8697"
-      },
-      "fontesAdicionais": [
-        {
-          "nome": "festasearraiais.pt",
-          "url": "https://festasearraiais.pt"
-        }
-      ]
-    },
-    {
-      "id": "festasearraiais-carnaval-2026-ovar-ovar-2026-01-24",
-      "nome": "Carnaval 2026 - Ovar",
-      "categoria": "carnaval",
-      "municipio": "Ovar",
-      "distrito": "Aveiro",
-      "regiao": "",
-      "local": "Ovar, União das freguesias de Ovar, São João, Arada e São Vicente de Pereira Jusã",
-      "lat": 40.860821,
-      "lng": -8.625468,
-      "inicio": "2026-01-24",
-      "fim": "2026-02-17",
-      "estadoData": "confirmada",
-      "descricao": "Vitamina da Alegria",
-      "origem": "festasearraiais",
-      "fonte": {
-        "nome": "Festas & Arraiais",
-        "url": "https://festasearraiais.pt/eventos/carnaval-2026-ovar-8729"
-      },
-      "fontesAdicionais": [
-        {
-          "nome": "festasearraiais.pt",
-          "url": "https://festasearraiais.pt"
-        }
-      ]
-    },
-    {
-      "id": "festasearraiais-festas-em-honra-de-sao-vicente-2026-montes-alcobaca-2026-01-24",
-      "nome": "Festas em honra de São Vicente 2026 - Montes",
-      "categoria": "festa-popular",
-      "municipio": "Alcobaça",
-      "distrito": "Leiria",
-      "regiao": "",
-      "local": "Montes, União das freguesias de Coz, Alpedriz e Montes",
-      "lat": 39.613953,
-      "lng": -8.949493,
-      "inicio": "2026-01-24",
-      "fim": "2026-01-25",
-      "estadoData": "confirmada",
-      "descricao": "Festas em honra de São Vicente com atividades como orquestra, cortejo, missa e procissão.",
-      "origem": "festasearraiais",
-      "fonte": {
-        "nome": "Festas & Arraiais",
-        "url": "https://festasearraiais.pt/eventos/festas-em-honra-de-sao-vicente-2026-montes-8766"
-      },
-      "fontesAdicionais": [
-        {
-          "nome": "festasearraiais.pt",
-          "url": "https://festasearraiais.pt"
-        }
-      ]
-    },
-    {
-      "id": "festasearraiais-festa-em-honra-de-martir-s-sebastiao-2026-ceira-dos-vales-lousa-2026-01-24",
-      "nome": "Festa em honra de Mártir S. Sebastião 2026 - Ceira dos Vales",
-      "categoria": "festa-popular",
-      "municipio": "Lousã",
-      "distrito": "Coimbra",
-      "regiao": "",
-      "local": "Ceira dos Vales, União das freguesias de Lousã e Vilarinho",
-      "lat": 40.146325,
-      "lng": -8.248996,
-      "inicio": "2026-01-24",
-      "fim": "2026-01-25",
-      "estadoData": "confirmada",
-      "descricao": "Festa em honra de Mártir S. Sebastião com várias atividades, incluindo arruada, quermesse, porco no espeto, animação musical e jogos tradicionais.",
-      "origem": "festasearraiais",
-      "fonte": {
-        "nome": "Festas & Arraiais",
-        "url": "https://festasearraiais.pt/eventos/festa-em-honra-de-martir-s-sebastiao-2026-ceira-dos-vales-8768"
-      },
-      "fontesAdicionais": [
-        {
-          "nome": "festasearraiais.pt",
-          "url": "https://festasearraiais.pt"
-        }
-      ]
-    },
-    {
-      "id": "festasearraiais-festa-em-honra-de-sao-sebastiao-2026-granja-penedono-2026-01-24",
-      "nome": "Festa em honra de São Sebastião 2026 - Granja",
-      "categoria": "festa-popular",
-      "municipio": "Penedono",
-      "distrito": "Viseu",
-      "regiao": "",
-      "local": "Granja, União das freguesias de Penedono e Granja",
-      "lat": 40.9889,
-      "lng": -7.3944,
-      "inicio": "2026-01-24",
-      "fim": "2026-01-24",
-      "estadoData": "confirmada",
-      "descricao": "Chegada e Arruada, Eucaristia e Procissão, Convívio e baile com Banda Filarmónica de Penedono e Jorge Veiga.",
-      "origem": "festasearraiais",
-      "fonte": {
-        "nome": "Festas & Arraiais",
-        "url": "https://festasearraiais.pt/eventos/festa-em-honra-de-sao-sebastiao-2026-granja-8778"
-      },
-      "fontesAdicionais": [
-        {
-          "nome": "festasearraiais.pt",
-          "url": "https://festasearraiais.pt"
-        }
-      ]
-    },
-    {
-      "id": "festasearraiais-festas-em-honra-de-s-sebastiao-2026-santa-catarina-da-serra-leiria-2026-01-24",
-      "nome": "Festas em honra de S. Sebastião 2026 - Santa Catarina da Serra",
-      "categoria": "festa-popular",
-      "municipio": "Leiria",
-      "distrito": "Leiria",
-      "regiao": "",
-      "local": "Santa Catarina da Serra, União das freguesias de Santa Catarina da Serra e Chainça",
-      "lat": 39.680261,
-      "lng": -8.687097,
-      "inicio": "2026-01-24",
-      "fim": "2026-01-25",
-      "estadoData": "confirmada",
-      "descricao": "Festas em honra de S. Sebastião com eucaristia, animação musical e atividades diversas.",
-      "origem": "festasearraiais",
-      "fonte": {
-        "nome": "Festas & Arraiais",
-        "url": "https://festasearraiais.pt/eventos/festas-em-honra-de-s-sebastiao-2026-santa-catarina-da-serra-8783"
-      },
-      "fontesAdicionais": [
-        {
-          "nome": "festasearraiais.pt",
-          "url": "https://festasearraiais.pt"
-        }
-      ]
-    },
-    {
       "id": "festasearraiais-festas-em-honra-de-sao-vicente-2026-gaviao-gaviao-2026-01-24",
       "nome": "Festas em Honra de São Vicente 2026 - Gavião",
       "categoria": "festa-popular",
@@ -4036,6 +3906,136 @@
       "fonte": {
         "nome": "Festas & Arraiais",
         "url": "https://festasearraiais.pt/eventos/carnaval-2026-nazare-8565"
+      },
+      "fontesAdicionais": [
+        {
+          "nome": "festasearraiais.pt",
+          "url": "https://festasearraiais.pt"
+        }
+      ]
+    },
+    {
+      "id": "festasearraiais-festa-em-honra-de-n-senhora-da-cabeca-2026-nogueira-braganca-2026-01-24",
+      "nome": "Festa em honra de N. Senhora da Cabeça 2026 - Nogueira",
+      "categoria": "romaria",
+      "municipio": "Bragança",
+      "distrito": "Bragança",
+      "regiao": "",
+      "local": "Nogueira, Nogueira",
+      "lat": 41.772358,
+      "lng": -6.812958,
+      "inicio": "2026-01-24",
+      "fim": "2026-02-02",
+      "estadoData": "confirmada",
+      "descricao": "Festa em honra de N. Senhora da Cabeça com novenas, missas solenes, procissões, atuações de Leonor Santos, Jorge Mendes e Zé Ferreira, e serviço de bar com vitela assada.",
+      "origem": "festasearraiais",
+      "fonte": {
+        "nome": "Festas & Arraiais",
+        "url": "https://festasearraiais.pt/eventos/festa-em-honra-de-n-senhora-da-cabeca-2026-nogueira-8569"
+      },
+      "fontesAdicionais": [
+        {
+          "nome": "festasearraiais.pt",
+          "url": "https://festasearraiais.pt"
+        }
+      ]
+    },
+    {
+      "id": "festasearraiais-festa-em-honra-de-nossa-senhora-das-candeias-2026-mourao-mourao-2026-01-24",
+      "nome": "Festa em honra de Nossa Senhora das Candeias 2026 - Mourão",
+      "categoria": "romaria",
+      "municipio": "Mourão",
+      "distrito": "Évora",
+      "regiao": "",
+      "local": "Mourão, Mourão",
+      "lat": 38.3841,
+      "lng": -7.3417,
+      "inicio": "2026-01-24",
+      "fim": "2026-02-03",
+      "estadoData": "confirmada",
+      "descricao": "Grandiosa festa em honra de Nossa Senhora das Candeias com eventos religiosos, musicais e culturais.",
+      "origem": "festasearraiais",
+      "fonte": {
+        "nome": "Festas & Arraiais",
+        "url": "https://festasearraiais.pt/eventos/festa-em-honra-de-nossa-senhora-das-candeias-2026-mourao-8580"
+      },
+      "fontesAdicionais": [
+        {
+          "nome": "festasearraiais.pt",
+          "url": "https://festasearraiais.pt"
+        }
+      ]
+    },
+    {
+      "id": "festasearraiais-x-mostra-regional-do-mel-e-da-poncha-2026-serra-de-agua-ribeira-brava-2026-01-24",
+      "nome": "X Mostra Regional do Mel e da Poncha 2026 - Serra de Água",
+      "categoria": "feira-tradicional",
+      "municipio": "Ribeira Brava",
+      "distrito": "Ilha da Madeira",
+      "regiao": "",
+      "local": "Serra de Água, Serra de Água",
+      "lat": 32.726991,
+      "lng": -17.027085,
+      "inicio": "2026-01-24",
+      "fim": "2026-01-25",
+      "estadoData": "confirmada",
+      "descricao": "X Mostra Regional do Mel e da Poncha 2026 - Serra de Água",
+      "origem": "festasearraiais",
+      "fonte": {
+        "nome": "Festas & Arraiais",
+        "url": "https://festasearraiais.pt/eventos/x-mostra-regional-do-mel-e-da-poncha-2026-serra-de-agua-8585"
+      },
+      "fontesAdicionais": [
+        {
+          "nome": "festasearraiais.pt",
+          "url": "https://festasearraiais.pt"
+        }
+      ]
+    },
+    {
+      "id": "festasearraiais-festa-em-honra-de-sao-goncalo-2026-vilar-de-ouro-mirandela-2026-01-24",
+      "nome": "Festa em honra de São Gonçalo 2026 - Vilar de Ouro",
+      "categoria": "festa-popular",
+      "municipio": "Mirandela",
+      "distrito": "Bragança",
+      "regiao": "",
+      "local": "Vilar de Ouro, São Pedro Velho",
+      "lat": 41.705081,
+      "lng": -7.161779,
+      "inicio": "2026-01-24",
+      "fim": "2026-01-25",
+      "estadoData": "confirmada",
+      "descricao": "Programa inclui arruada, missa solene, aparelhagem, rally das adegas, e atuações de Delfim Júnior & Ympério Show e Paulo Fernandes & Chamamusical.",
+      "origem": "festasearraiais",
+      "fonte": {
+        "nome": "Festas & Arraiais",
+        "url": "https://festasearraiais.pt/eventos/festa-em-honra-de-sao-goncalo-2026-vilar-de-ouro-8587"
+      },
+      "fontesAdicionais": [
+        {
+          "nome": "festasearraiais.pt",
+          "url": "https://festasearraiais.pt"
+        }
+      ]
+    },
+    {
+      "id": "festasearraiais-festa-em-honra-de-sao-sebastiao-2026-negreiros-barcelos-2026-01-24",
+      "nome": "Festa em honra de São Sebastião 2026 - Negreiros",
+      "categoria": "festa-popular",
+      "municipio": "Barcelos",
+      "distrito": "Braga",
+      "regiao": "",
+      "local": "Negreiros, União das freguesias de Negreiros e Chavão",
+      "lat": 41.429111,
+      "lng": -8.618016,
+      "inicio": "2026-01-24",
+      "fim": "2026-01-25",
+      "estadoData": "confirmada",
+      "descricao": "Festas em honra de São Sebastião com programa cultural e religioso, incluindo atuações musicais, fogo de artifício, missas e procissão.",
+      "origem": "festasearraiais",
+      "fonte": {
+        "nome": "Festas & Arraiais",
+        "url": "https://festasearraiais.pt/eventos/festa-em-honra-de-sao-sebastiao-2026-negreiros-8598"
       },
       "fontesAdicionais": [
         {
@@ -5065,110 +5065,6 @@
       ]
     },
     {
-      "id": "fonte-jf-bonfim-camara-vota-submeter-a-consulta-publica-operacao-para-reabilitar-o-bonfim",
-      "nome": "Câmara vota submeter a consulta pública operação para reabilitar o Bonfim",
-      "categoria": "festival",
-      "municipio": "Porto",
-      "distrito": "Porto",
-      "regiao": "",
-      "local": "",
-      "lat": 41.1502195,
-      "lng": -8.6103497,
-      "inicio": null,
-      "fim": null,
-      "estadoData": "estimada",
-      "descricao": "A Câmara do Porto vai votar submeter a consulta pública o projeto da Operação de Reabilitação Urbana (ORU) do Bonfim, que prevê um investimento de 683 milhões de euros. De acordo com o Relatório do Programa Estratégico de Reabilitação Urbana (PERU), anexado à proposta a que a Lusa teve hoje acesso, esta operação urbana terá [&#8230;] O conteúdo Câmara vota submeter a consulta pública operação para",
-      "origem": "fontes",
-      "fonte": {
-        "nome": "Junta de Freguesia do Bonfim",
-        "url": "https://jfbonfim.pt/2026/07/06/operacao-de-reabilitacao-urbana-oru-do-bonfim/"
-      },
-      "fontesAdicionais": [
-        {
-          "nome": "Junta de Freguesia do Bonfim (página principal)",
-          "url": "https://www.jfbonfim.pt"
-        }
-      ]
-    },
-    {
-      "id": "fonte-jf-alvalade-alvalade-inova-junta-comerciantes-empreendedores-e-comunidade-no-mercado-de-alvalade",
-      "nome": "Alvalade Inova junta comerciantes, empreendedores e comunidade no Mercado de Alvalade",
-      "categoria": "feira-tradicional",
-      "municipio": "Lisboa",
-      "distrito": "Lisboa",
-      "regiao": "",
-      "local": "",
-      "lat": 38.7077507,
-      "lng": -9.1365919,
-      "inicio": null,
-      "fim": null,
-      "estadoData": "estimada",
-      "descricao": "As pré-inscrições para participar no momento de apresentação da primeira edição do Alvalade Inova abrem no dia 10 de julho e decorrem até às 23h59 do dia 31 de julho. [&#8230;] The post Alvalade Inova junta comerciantes, empreendedores e comunidade no Mercado de Alvalade first appeared on Junta de Freguesia de Alvalade .",
-      "origem": "fontes",
-      "fonte": {
-        "nome": "Junta de Freguesia de Alvalade",
-        "url": "https://jf-alvalade.pt/alvalade-inova/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=alvalade-inova"
-      },
-      "fontesAdicionais": [
-        {
-          "nome": "Junta de Freguesia de Alvalade (página principal)",
-          "url": "https://jf-alvalade.pt"
-        }
-      ]
-    },
-    {
-      "id": "fonte-jf-alvalade-feira-de-alvalade-inscricoes-abrem-a-1-de-julho",
-      "nome": "Feira de Alvalade: inscrições abrem a 1 de julho",
-      "categoria": "feira-tradicional",
-      "municipio": "Lisboa",
-      "distrito": "Lisboa",
-      "regiao": "",
-      "local": "",
-      "lat": 38.7077507,
-      "lng": -9.1365919,
-      "inicio": null,
-      "fim": null,
-      "estadoData": "estimada",
-      "descricao": "A Junta de Freguesia de Alvalade promove a Feira de Alvalade, uma iniciativa dedicada à economia circular, à reutilização, ao artesanato e à dinamização do Mercado de Alvalade. A feira [&#8230;] The post Feira de Alvalade: inscrições abrem a 1 de julho first appeared on Junta de Freguesia de Alvalade .",
-      "origem": "fontes",
-      "fonte": {
-        "nome": "Junta de Freguesia de Alvalade",
-        "url": "https://jf-alvalade.pt/feira-de-alvalade-inscricoes-abrem-a-1-de-junho/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=feira-de-alvalade-inscricoes-abrem-a-1-de-junho"
-      },
-      "fontesAdicionais": [
-        {
-          "nome": "Junta de Freguesia de Alvalade (página principal)",
-          "url": "https://jf-alvalade.pt"
-        }
-      ]
-    },
-    {
-      "id": "fonte-jf-alvalade-arraial-de-alvalade-celebra-os-santos-populares-nos-dias-9-10-12-e-13-de-junho",
-      "nome": "Arraial de Alvalade celebra os Santos Populares nos dias 9, 10, 12 e 13 de junho",
-      "categoria": "festa-popular",
-      "municipio": "Lisboa",
-      "distrito": "Lisboa",
-      "regiao": "",
-      "local": "",
-      "lat": 38.7077507,
-      "lng": -9.1365919,
-      "inicio": null,
-      "fim": null,
-      "estadoData": "estimada",
-      "descricao": "Alvalade prepara-se para celebrar os Santos Populares com mais uma edição do Arraial de Alvalade, que decorre nos dias 9, 10, 12 e 13 de junho de 2026, no Complexo [&#8230;] The post Arraial de Alvalade celebra os Santos Populares nos dias 9, 10, 12 e 13 de junho first appeared on Junta de Freguesia de Alvalade .",
-      "origem": "fontes",
-      "fonte": {
-        "nome": "Junta de Freguesia de Alvalade",
-        "url": "https://jf-alvalade.pt/arraial-de-alvalade-2026/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=arraial-de-alvalade-2026"
-      },
-      "fontesAdicionais": [
-        {
-          "nome": "Junta de Freguesia de Alvalade (página principal)",
-          "url": "https://jf-alvalade.pt"
-        }
-      ]
-    },
-    {
       "id": "fonte-jf-arroios-mercado-comunitario-da-primavera-124-spring-community-market",
       "nome": "Mercado Comunitário da Primavera &#124; Spring Community Market",
       "categoria": "feira-tradicional",
@@ -5191,32 +5087,6 @@
         {
           "nome": "Junta de Freguesia de Arroios (página principal)",
           "url": "https://jfarroios.pt"
-        }
-      ]
-    },
-    {
-      "id": "fonte-coliseu-lisboa-boas-festas",
-      "nome": "Boas Festas",
-      "categoria": "festival",
-      "municipio": "Lisboa",
-      "distrito": "Lisboa",
-      "regiao": "",
-      "local": "",
-      "lat": 38.7077507,
-      "lng": -9.1365919,
-      "inicio": null,
-      "fim": null,
-      "estadoData": "estimada",
-      "descricao": "Nesta época tão especial, queremos desejar a todos votos de feliz natal e próspero ano novo. Voltamos a ver-nos em 2025. Coliseu dos Recreios &#8211; O Espaço dos Grandes Eventos em Lisboa",
-      "origem": "fontes",
-      "fonte": {
-        "nome": "Coliseu dos Recreios",
-        "url": "https://coliseulisboa.com/boas-festas/"
-      },
-      "fontesAdicionais": [
-        {
-          "nome": "Coliseu dos Recreios (página principal)",
-          "url": "https://www.coliseulisboa.com"
         }
       ]
     }
