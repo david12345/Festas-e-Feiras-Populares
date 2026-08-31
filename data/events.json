@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "atualizadoEm": "2026-08-24",
+  "atualizadoEm": "2026-08-31",
   "geradoPor": "scripts/import-fontes.mjs",
   "fontesResumo": [
     {
@@ -89,7 +89,7 @@
     },
     {
       "fonte": "festasearraiais.pt",
-      "n": 150
+      "n": 145
     }
   ],
   "eventos": [
@@ -1982,136 +1982,6 @@
       "fonte": {
         "nome": "Festas & Arraiais",
         "url": "https://festasearraiais.pt/eventos/festas-em-honra-de-sao-sebastiao-2026-carvalhal-de-mancores-8558"
-      },
-      "fontesAdicionais": [
-        {
-          "nome": "festasearraiais.pt",
-          "url": "https://festasearraiais.pt"
-        }
-      ]
-    },
-    {
-      "id": "festasearraiais-festa-em-honra-de-sao-sebastiao-2026-bobeda-chaves-2026-01-17",
-      "nome": "Festa em honra de São Sebastião 2026 - Bóbeda",
-      "categoria": "festa-popular",
-      "municipio": "Chaves",
-      "distrito": "Vila Real",
-      "regiao": "",
-      "local": "Bóbeda, São Pedro de Agostém",
-      "lat": 41.696103,
-      "lng": -7.52117,
-      "inicio": "2026-01-17",
-      "fim": "2026-01-20",
-      "estadoData": "confirmada",
-      "descricao": "Festa em honra de São Sebastião com arruada pela Banda Musical Os Pardais, missa, atuação do grupo de concertinas Sons do Rio e atuação do grupo musical Novasom Band.",
-      "origem": "festasearraiais",
-      "fonte": {
-        "nome": "Festas & Arraiais",
-        "url": "https://festasearraiais.pt/eventos/festa-em-honra-de-sao-sebastiao-2026-bobeda-8566"
-      },
-      "fontesAdicionais": [
-        {
-          "nome": "festasearraiais.pt",
-          "url": "https://festasearraiais.pt"
-        }
-      ]
-    },
-    {
-      "id": "festasearraiais-festas-de-sto-amaro-2026-prada-vinhais-2026-01-17",
-      "nome": "Festas de Sto. Amaro 2026 - Prada",
-      "categoria": "festa-popular",
-      "municipio": "Vinhais",
-      "distrito": "Bragança",
-      "regiao": "",
-      "local": "Prada, Vila Verde",
-      "lat": 41.854255,
-      "lng": -6.964748,
-      "inicio": "2026-01-17",
-      "fim": "2026-01-17",
-      "estadoData": "confirmada",
-      "descricao": "Alvorada, Missa solene em honra de Sto. Amaro, procissão, baile com Eduardo Medeiros e Dj Boinas, Arraial com Bruno Cordeiro.",
-      "origem": "festasearraiais",
-      "fonte": {
-        "nome": "Festas & Arraiais",
-        "url": "https://festasearraiais.pt/eventos/festas-de-sto-amaro-2026-prada-8572"
-      },
-      "fontesAdicionais": [
-        {
-          "nome": "festasearraiais.pt",
-          "url": "https://festasearraiais.pt"
-        }
-      ]
-    },
-    {
-      "id": "festasearraiais-festa-em-honra-de-sao-sebastiao-2026-travanca-amarante-2026-01-17",
-      "nome": "Festa em honra de São Sebastião 2026 - Travanca",
-      "categoria": "festa-popular",
-      "municipio": "Amarante",
-      "distrito": "Porto",
-      "regiao": "",
-      "local": "Travanca, Travanca",
-      "lat": 41.274015,
-      "lng": -8.194429,
-      "inicio": "2026-01-17",
-      "fim": "2026-01-25",
-      "estadoData": "confirmada",
-      "descricao": "Festa em honra de São Sebastião com missas, atuações musicais, fogos de artifício e procissão.",
-      "origem": "festasearraiais",
-      "fonte": {
-        "nome": "Festas & Arraiais",
-        "url": "https://festasearraiais.pt/eventos/festa-em-honra-de-sao-sebastiao-2026-travanca-8607"
-      },
-      "fontesAdicionais": [
-        {
-          "nome": "festasearraiais.pt",
-          "url": "https://festasearraiais.pt"
-        }
-      ]
-    },
-    {
-      "id": "festasearraiais-feira-dos-vinte-2026-vila-de-prado-vila-verde-2026-01-17",
-      "nome": "Feira dos Vinte 2026 - Vila de Prado",
-      "categoria": "feira-tradicional",
-      "municipio": "Vila Verde",
-      "distrito": "Braga",
-      "regiao": "",
-      "local": "Vila de Prado, Vila de Prado",
-      "lat": 41.602726,
-      "lng": -8.467104,
-      "inicio": "2026-01-17",
-      "fim": "2026-01-20",
-      "estadoData": "confirmada",
-      "descricao": "Festividades em Honra de São Sebastião com diversas atividades como desfiles, gincanas, espetáculos e provas gastronómicas.",
-      "origem": "festasearraiais",
-      "fonte": {
-        "nome": "Festas & Arraiais",
-        "url": "https://festasearraiais.pt/eventos/feira-dos-vinte-2026-vila-de-prado-8621"
-      },
-      "fontesAdicionais": [
-        {
-          "nome": "festasearraiais.pt",
-          "url": "https://festasearraiais.pt"
-        }
-      ]
-    },
-    {
-      "id": "festasearraiais-festa-em-honra-de-santo-antao-2026-trancoso-trancoso-2026-01-17",
-      "nome": "Festa em honra de Santo Antão 2026 - Trancoso",
-      "categoria": "festa-popular",
-      "municipio": "Trancoso",
-      "distrito": "Guarda",
-      "regiao": "",
-      "local": "Pavilhão Sr. da Pedra, União das freguesias de Trancoso (São Pedro e Santa Maria) e Souto Maior",
-      "lat": 40.816255,
-      "lng": -7.314641,
-      "inicio": "2026-01-17",
-      "fim": "2026-01-18",
-      "estadoData": "confirmada",
-      "descricao": "Festa de Santo Antão com missa, procissão, baile e animação musical.",
-      "origem": "festasearraiais",
-      "fonte": {
-        "nome": "Festas & Arraiais",
-        "url": "https://festasearraiais.pt/eventos/festa-em-honra-de-santo-antao-2026-trancoso-8635"
       },
       "fontesAdicionais": [
         {
