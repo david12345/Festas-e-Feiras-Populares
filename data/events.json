@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "atualizadoEm": "2026-09-14",
+  "atualizadoEm": "2026-09-21",
   "geradoPor": "scripts/import-fontes.mjs",
   "fontesResumo": [
     {
@@ -17,7 +17,7 @@
     },
     {
       "fonte": "Junta de Freguesia de Alvalade",
-      "n": 0
+      "n": 1
     },
     {
       "fonte": "Junta de Freguesia de Arroios",
@@ -5061,6 +5061,32 @@
         {
           "nome": "Câmara Municipal de Tomar",
           "url": "https://www.cm-tomar.pt/"
+        }
+      ]
+    },
+    {
+      "id": "fonte-jf-alvalade-feira-de-alvalade-inscricoes-abrem-a-1-de-setembro",
+      "nome": "Feira de Alvalade: inscrições abrem a 1 de setembro",
+      "categoria": "feira-tradicional",
+      "municipio": "Lisboa",
+      "distrito": "Lisboa",
+      "regiao": "",
+      "local": "",
+      "lat": 38.7077507,
+      "lng": -9.1365919,
+      "inicio": null,
+      "fim": null,
+      "estadoData": "estimada",
+      "descricao": "A Junta de Freguesia de Alvalade promove a Feira de Alvalade, uma iniciativa dedicada à economia circular, à reutilização, ao artesanato e à dinamização do Mercado de Alvalade. A feira [&#8230;] The post Feira de Alvalade: inscrições abrem a 1 de setembro first appeared on Junta de Freguesia de Alvalade .",
+      "origem": "fontes",
+      "fonte": {
+        "nome": "Junta de Freguesia de Alvalade",
+        "url": "https://jf-alvalade.pt/feira-de-alvalade-inscricoes/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=feira-de-alvalade-inscricoes"
+      },
+      "fontesAdicionais": [
+        {
+          "nome": "Junta de Freguesia de Alvalade (página principal)",
+          "url": "https://jf-alvalade.pt"
         }
       ]
     },
