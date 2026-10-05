@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "atualizadoEm": "2026-09-28",
+  "atualizadoEm": "2026-10-05",
   "geradoPor": "scripts/import-fontes.mjs",
   "fontesResumo": [
     {
@@ -9,7 +9,7 @@
     },
     {
       "fonte": "Junta de Freguesia do Bonfim",
-      "n": 4
+      "n": 0
     },
     {
       "fonte": "Junta de Freguesia de Paranhos",
@@ -17,7 +17,7 @@
     },
     {
       "fonte": "Junta de Freguesia de Alvalade",
-      "n": 2
+      "n": 3
     },
     {
       "fonte": "Junta de Freguesia de Arroios",
@@ -5065,106 +5065,28 @@
       ]
     },
     {
-      "id": "fonte-jf-bonfim-sessao-publica-sobre-a-operacao-de-reabilitacao-urbana-oru-do-bonfim",
-      "nome": "Sessão Pública sobre a Operação de Reabilitação Urbana (ORU) do Bonfim",
+      "id": "fonte-jf-alvalade-reabertura-das-inscricoes-para-as-oficinas-de-teatro",
+      "nome": "Reabertura das Inscrições para as Oficinas de Teatro",
       "categoria": "festival",
-      "municipio": "Porto",
-      "distrito": "Porto",
+      "municipio": "Lisboa",
+      "distrito": "Lisboa",
       "regiao": "",
       "local": "",
-      "lat": 41.1502195,
-      "lng": -8.6103497,
+      "lat": 38.7077507,
+      "lng": -9.1365919,
       "inicio": null,
       "fim": null,
       "estadoData": "estimada",
-      "descricao": "Sessão pública sobre a Operação de Reabilitação Urbana (ORU) do Bonfim, a realizar no dia 30 de setembro, às 18h30, no Salão Nobre da Junta de Freguesia do Bonfim. O conteúdo Sessão Pública sobre a Operação de Reabilitação Urbana (ORU) do Bonfim aparece primeiro em Junta de Freguesia do Bonfim .",
+      "descricao": "A Junta de Freguesia de Alvalade informa que foram reabertas as inscrições para as Oficinas de Teatro 2026/2027, exclusivamente para os grupos que ainda dispõem de vagas. As inscrições encontram-se [&#8230;] The post Reabertura das Inscrições para as Oficinas de Teatro first appeared on Junta de Freguesia de Alvalade .",
       "origem": "fontes",
       "fonte": {
-        "nome": "Junta de Freguesia do Bonfim",
-        "url": "https://jfbonfim.pt/2026/09/23/sessao-publica-sobre-a-operacao-de-reabilitacao-urbana-oru-do-bonfim/"
+        "nome": "Junta de Freguesia de Alvalade",
+        "url": "https://jf-alvalade.pt/reabertura-das-inscricoes-para-as-oficinas-de-teatro/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=reabertura-das-inscricoes-para-as-oficinas-de-teatro"
       },
       "fontesAdicionais": [
         {
-          "nome": "Junta de Freguesia do Bonfim (página principal)",
-          "url": "https://www.jfbonfim.pt"
-        }
-      ]
-    },
-    {
-      "id": "fonte-jf-bonfim-bonfim-em-festa",
-      "nome": "Bonfim em festa",
-      "categoria": "festa-popular",
-      "municipio": "Porto",
-      "distrito": "Porto",
-      "regiao": "",
-      "local": "",
-      "lat": 41.1502195,
-      "lng": -8.6103497,
-      "inicio": null,
-      "fim": null,
-      "estadoData": "estimada",
-      "descricao": "A freguesia volta, nos próximos dias, a viver uma tradição com muitos anos. A Festa de Nossa Senhora do Porto, na Capela de Montebelo, de 17 a 20 de setembro. Este ano, com um cartaz que alia a parte religiosa com a popular, que se espera seja do agrado de todos. Uma festa que tem [&#8230;] O conteúdo Bonfim em festa aparece primeiro em Junta de Freguesia do Bonfim .",
-      "origem": "fontes",
-      "fonte": {
-        "nome": "Junta de Freguesia do Bonfim",
-        "url": "https://jfbonfim.pt/2026/09/15/bonfim-em-festa/"
-      },
-      "fontesAdicionais": [
-        {
-          "nome": "Junta de Freguesia do Bonfim (página principal)",
-          "url": "https://www.jfbonfim.pt"
-        }
-      ]
-    },
-    {
-      "id": "fonte-jf-bonfim-a-festa-espalha-se-pela-freguesia",
-      "nome": "A festa espalha-se pela freguesia",
-      "categoria": "festa-popular",
-      "municipio": "Porto",
-      "distrito": "Porto",
-      "regiao": "",
-      "local": "",
-      "lat": 41.1502195,
-      "lng": -8.6103497,
-      "inicio": null,
-      "fim": null,
-      "estadoData": "estimada",
-      "descricao": "Estão quase a chegar as Festas de Santa Clara e do Senhor do Bonfim. A mensagem espalha-se pela freguesia, fruto do trabalho desenvolvido pelos escuteiros do Agrupamento 6 do Corpo Nacional de Escutas (CNE). De sexta até domingo há muita animação e motivos de interesse para participar nas festas maiores da nossa freguesia. A Junta [&#8230;] O conteúdo A festa espalha-se pela freguesia aparece prim",
-      "origem": "fontes",
-      "fonte": {
-        "nome": "Junta de Freguesia do Bonfim",
-        "url": "https://jfbonfim.pt/2026/09/03/a-festa-espalha-se-pela-freguesia/"
-      },
-      "fontesAdicionais": [
-        {
-          "nome": "Junta de Freguesia do Bonfim (página principal)",
-          "url": "https://www.jfbonfim.pt"
-        }
-      ]
-    },
-    {
-      "id": "fonte-jf-bonfim-condicionamentos-de-transito-nas-festas-de-santa-clara-e-do-senhor-do-bonfim",
-      "nome": "Condicionamentos de trânsito nas Festas de Santa Clara e do Senhor do Bonfim",
-      "categoria": "romaria",
-      "municipio": "Porto",
-      "distrito": "Porto",
-      "regiao": "",
-      "local": "",
-      "lat": 41.1502195,
-      "lng": -8.6103497,
-      "inicio": null,
-      "fim": null,
-      "estadoData": "estimada",
-      "descricao": "As festas de Santa Clara realizam-se, anualmente, no primeiro domingo de setembro. Esta celebração na Igreja Paroquial do Bonfim é uma das romarias mais antigas e tradicionais da cidade, unindo a comunidade local em redor de fortes matrizes de fé e de convívio popular. Este ano decorrem de 4 a 6 de setembro e vão [&#8230;] O conteúdo Condicionamentos de trânsito nas Festas de Santa Clara e do Senh",
-      "origem": "fontes",
-      "fonte": {
-        "nome": "Junta de Freguesia do Bonfim",
-        "url": "https://jfbonfim.pt/2026/09/01/festas-de-santa-clara/"
-      },
-      "fontesAdicionais": [
-        {
-          "nome": "Junta de Freguesia do Bonfim (página principal)",
-          "url": "https://www.jfbonfim.pt"
+          "nome": "Junta de Freguesia de Alvalade (página principal)",
+          "url": "https://jf-alvalade.pt"
         }
       ]
     },
