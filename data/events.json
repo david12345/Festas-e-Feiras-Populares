@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "atualizadoEm": "2026-10-05",
+  "atualizadoEm": "2026-10-12",
   "geradoPor": "scripts/import-fontes.mjs",
   "fontesResumo": [
     {
@@ -9,7 +9,7 @@
     },
     {
       "fonte": "Junta de Freguesia do Bonfim",
-      "n": 0
+      "n": 2
     },
     {
       "fonte": "Junta de Freguesia de Paranhos",
@@ -5061,6 +5061,58 @@
         {
           "nome": "Câmara Municipal de Tomar",
           "url": "https://www.cm-tomar.pt/"
+        }
+      ]
+    },
+    {
+      "id": "fonte-jf-bonfim-sessao-publica-sobre-a-operacao-de-reabilitacao-urbana-oru-do-bonfim",
+      "nome": "Sessão Pública sobre a Operação de Reabilitação Urbana (ORU) do Bonfim",
+      "categoria": "festival",
+      "municipio": "Porto",
+      "distrito": "Porto",
+      "regiao": "",
+      "local": "",
+      "lat": 41.1502195,
+      "lng": -8.6103497,
+      "inicio": null,
+      "fim": null,
+      "estadoData": "estimada",
+      "descricao": "Sessão pública sobre a Operação de Reabilitação Urbana (ORU) do Bonfim, a realizar no dia 30 de setembro, às 18h30, no Salão Nobre da Junta de Freguesia do Bonfim. O conteúdo Sessão Pública sobre a Operação de Reabilitação Urbana (ORU) do Bonfim aparece primeiro em Junta de Freguesia do Bonfim .",
+      "origem": "fontes",
+      "fonte": {
+        "nome": "Junta de Freguesia do Bonfim",
+        "url": "https://jfbonfim.pt/2026/09/23/sessao-publica-sobre-a-operacao-de-reabilitacao-urbana-oru-do-bonfim/"
+      },
+      "fontesAdicionais": [
+        {
+          "nome": "Junta de Freguesia do Bonfim (página principal)",
+          "url": "https://www.jfbonfim.pt"
+        }
+      ]
+    },
+    {
+      "id": "fonte-jf-bonfim-bonfim-em-festa",
+      "nome": "Bonfim em festa",
+      "categoria": "festa-popular",
+      "municipio": "Porto",
+      "distrito": "Porto",
+      "regiao": "",
+      "local": "",
+      "lat": 41.1502195,
+      "lng": -8.6103497,
+      "inicio": null,
+      "fim": null,
+      "estadoData": "estimada",
+      "descricao": "A freguesia volta, nos próximos dias, a viver uma tradição com muitos anos. A Festa de Nossa Senhora do Porto, na Capela de Montebelo, de 17 a 20 de setembro. Este ano, com um cartaz que alia a parte religiosa com a popular, que se espera seja do agrado de todos. Uma festa que tem [&#8230;] O conteúdo Bonfim em festa aparece primeiro em Junta de Freguesia do Bonfim .",
+      "origem": "fontes",
+      "fonte": {
+        "nome": "Junta de Freguesia do Bonfim",
+        "url": "https://jfbonfim.pt/2026/09/15/bonfim-em-festa/"
+      },
+      "fontesAdicionais": [
+        {
+          "nome": "Junta de Freguesia do Bonfim (página principal)",
+          "url": "https://www.jfbonfim.pt"
         }
       ]
     },
