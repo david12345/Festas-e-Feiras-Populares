@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "atualizadoEm": "2026-10-12",
+  "atualizadoEm": "2026-10-19",
   "geradoPor": "scripts/import-fontes.mjs",
   "fontesResumo": [
     {
@@ -9,7 +9,7 @@
     },
     {
       "fonte": "Junta de Freguesia do Bonfim",
-      "n": 2
+      "n": 1
     },
     {
       "fonte": "Junta de Freguesia de Paranhos",
@@ -17,7 +17,7 @@
     },
     {
       "fonte": "Junta de Freguesia de Alvalade",
-      "n": 3
+      "n": 2
     },
     {
       "fonte": "Junta de Freguesia de Arroios",
@@ -5065,8 +5065,8 @@
       ]
     },
     {
-      "id": "fonte-jf-bonfim-sessao-publica-sobre-a-operacao-de-reabilitacao-urbana-oru-do-bonfim",
-      "nome": "Sessão Pública sobre a Operação de Reabilitação Urbana (ORU) do Bonfim",
+      "id": "fonte-jf-bonfim-semana-sem-idade-124-operacao-stop-a-rua-tambem-e-minha",
+      "nome": "Semana sem idade &#124; Operação Stop “A Rua também é minha”",
       "categoria": "festival",
       "municipio": "Porto",
       "distrito": "Porto",
@@ -5077,37 +5077,11 @@
       "inicio": null,
       "fim": null,
       "estadoData": "estimada",
-      "descricao": "Sessão pública sobre a Operação de Reabilitação Urbana (ORU) do Bonfim, a realizar no dia 30 de setembro, às 18h30, no Salão Nobre da Junta de Freguesia do Bonfim. O conteúdo Sessão Pública sobre a Operação de Reabilitação Urbana (ORU) do Bonfim aparece primeiro em Junta de Freguesia do Bonfim .",
+      "descricao": "Seniores do Bonfim, acompanhadas de assistentes sociais da Junta de Freguesia, participaram na Semana Sem Idade, na iniciativa “A Rua Também é Minha”, ação conjunta com a Polícia Municipal. A convite da empresa municipal Domus Social, as senhoras das casas partilhadas puderam interagir com quem circulava na Baixa. Fotos: Junta de Freguesia do Bonfim O conteúdo Semana sem idade | Operação Stop “A R",
       "origem": "fontes",
       "fonte": {
         "nome": "Junta de Freguesia do Bonfim",
-        "url": "https://jfbonfim.pt/2026/09/23/sessao-publica-sobre-a-operacao-de-reabilitacao-urbana-oru-do-bonfim/"
-      },
-      "fontesAdicionais": [
-        {
-          "nome": "Junta de Freguesia do Bonfim (página principal)",
-          "url": "https://www.jfbonfim.pt"
-        }
-      ]
-    },
-    {
-      "id": "fonte-jf-bonfim-bonfim-em-festa",
-      "nome": "Bonfim em festa",
-      "categoria": "festa-popular",
-      "municipio": "Porto",
-      "distrito": "Porto",
-      "regiao": "",
-      "local": "",
-      "lat": 41.1502195,
-      "lng": -8.6103497,
-      "inicio": null,
-      "fim": null,
-      "estadoData": "estimada",
-      "descricao": "A freguesia volta, nos próximos dias, a viver uma tradição com muitos anos. A Festa de Nossa Senhora do Porto, na Capela de Montebelo, de 17 a 20 de setembro. Este ano, com um cartaz que alia a parte religiosa com a popular, que se espera seja do agrado de todos. Uma festa que tem [&#8230;] O conteúdo Bonfim em festa aparece primeiro em Junta de Freguesia do Bonfim .",
-      "origem": "fontes",
-      "fonte": {
-        "nome": "Junta de Freguesia do Bonfim",
-        "url": "https://jfbonfim.pt/2026/09/15/bonfim-em-festa/"
+        "url": "https://jfbonfim.pt/2026/10/05/semana-sem-idade-operacao-stop-a-rua-tambem-e-minha/"
       },
       "fontesAdicionais": [
         {
@@ -5160,32 +5134,6 @@
       "fonte": {
         "nome": "Junta de Freguesia de Alvalade",
         "url": "https://jf-alvalade.pt/oficinas-de-teatro-2026-2027-inscricoes-de-24-a-28-de-setembro/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=oficinas-de-teatro-2026-2027-inscricoes-de-24-a-28-de-setembro"
-      },
-      "fontesAdicionais": [
-        {
-          "nome": "Junta de Freguesia de Alvalade (página principal)",
-          "url": "https://jf-alvalade.pt"
-        }
-      ]
-    },
-    {
-      "id": "fonte-jf-alvalade-feira-de-alvalade-inscricoes-abrem-a-1-de-setembro",
-      "nome": "Feira de Alvalade: inscrições abrem a 1 de setembro",
-      "categoria": "feira-tradicional",
-      "municipio": "Lisboa",
-      "distrito": "Lisboa",
-      "regiao": "",
-      "local": "",
-      "lat": 38.7077507,
-      "lng": -9.1365919,
-      "inicio": null,
-      "fim": null,
-      "estadoData": "estimada",
-      "descricao": "A Junta de Freguesia de Alvalade promove a Feira de Alvalade, uma iniciativa dedicada à economia circular, à reutilização, ao artesanato e à dinamização do Mercado de Alvalade. A feira [&#8230;] The post Feira de Alvalade: inscrições abrem a 1 de setembro first appeared on Junta de Freguesia de Alvalade .",
-      "origem": "fontes",
-      "fonte": {
-        "nome": "Junta de Freguesia de Alvalade",
-        "url": "https://jf-alvalade.pt/feira-de-alvalade-inscricoes/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=feira-de-alvalade-inscricoes"
       },
       "fontesAdicionais": [
         {
