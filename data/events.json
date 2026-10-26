@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "atualizadoEm": "2026-10-19",
+  "atualizadoEm": "2026-10-26",
   "geradoPor": "scripts/import-fontes.mjs",
   "fontesResumo": [
     {
@@ -17,7 +17,7 @@
     },
     {
       "fonte": "Junta de Freguesia de Alvalade",
-      "n": 2
+      "n": 3
     },
     {
       "fonte": "Junta de Freguesia de Arroios",
@@ -5087,6 +5087,32 @@
         {
           "nome": "Junta de Freguesia do Bonfim (página principal)",
           "url": "https://www.jfbonfim.pt"
+        }
+      ]
+    },
+    {
+      "id": "fonte-jf-alvalade-feira-de-alvalade-124-inscricoes",
+      "nome": "Feira de Alvalade &#124; Inscrições",
+      "categoria": "feira-tradicional",
+      "municipio": "Lisboa",
+      "distrito": "Lisboa",
+      "regiao": "",
+      "local": "",
+      "lat": 38.7077507,
+      "lng": -9.1365919,
+      "inicio": null,
+      "fim": null,
+      "estadoData": "estimada",
+      "descricao": "A Junta de Freguesia de Alvalade promove a Feira de Alvalade, uma iniciativa dedicada à economia circular, à reutilização, ao artesanato e à dinamização do Mercado de Alvalade. A feira [&#8230;] The post Feira de Alvalade | Inscrições first appeared on Junta de Freguesia de Alvalade .",
+      "origem": "fontes",
+      "fonte": {
+        "nome": "Junta de Freguesia de Alvalade",
+        "url": "https://jf-alvalade.pt/feira-de-alvalade-inscricoes/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=feira-de-alvalade-inscricoes"
+      },
+      "fontesAdicionais": [
+        {
+          "nome": "Junta de Freguesia de Alvalade (página principal)",
+          "url": "https://jf-alvalade.pt"
         }
       ]
     },
