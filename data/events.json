@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "atualizadoEm": "2026-10-26",
+  "atualizadoEm": "2026-11-02",
   "geradoPor": "scripts/import-fontes.mjs",
   "fontesResumo": [
     {
@@ -9,7 +9,7 @@
     },
     {
       "fonte": "Junta de Freguesia do Bonfim",
-      "n": 1
+      "n": 0
     },
     {
       "fonte": "Junta de Freguesia de Paranhos",
@@ -5061,32 +5061,6 @@
         {
           "nome": "Câmara Municipal de Tomar",
           "url": "https://www.cm-tomar.pt/"
-        }
-      ]
-    },
-    {
-      "id": "fonte-jf-bonfim-semana-sem-idade-124-operacao-stop-a-rua-tambem-e-minha",
-      "nome": "Semana sem idade &#124; Operação Stop “A Rua também é minha”",
-      "categoria": "festival",
-      "municipio": "Porto",
-      "distrito": "Porto",
-      "regiao": "",
-      "local": "",
-      "lat": 41.1502195,
-      "lng": -8.6103497,
-      "inicio": null,
-      "fim": null,
-      "estadoData": "estimada",
-      "descricao": "Seniores do Bonfim, acompanhadas de assistentes sociais da Junta de Freguesia, participaram na Semana Sem Idade, na iniciativa “A Rua Também é Minha”, ação conjunta com a Polícia Municipal. A convite da empresa municipal Domus Social, as senhoras das casas partilhadas puderam interagir com quem circulava na Baixa. Fotos: Junta de Freguesia do Bonfim O conteúdo Semana sem idade | Operação Stop “A R",
-      "origem": "fontes",
-      "fonte": {
-        "nome": "Junta de Freguesia do Bonfim",
-        "url": "https://jfbonfim.pt/2026/10/05/semana-sem-idade-operacao-stop-a-rua-tambem-e-minha/"
-      },
-      "fontesAdicionais": [
-        {
-          "nome": "Junta de Freguesia do Bonfim (página principal)",
-          "url": "https://www.jfbonfim.pt"
         }
       ]
     },
